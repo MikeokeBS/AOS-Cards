@@ -85,6 +85,7 @@
       <entryLinks>
         <entryLink id="675e-58e4-d138-70b6" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
         <entryLink id="1b50-fb78-1535-a1e6" name="Staff Rating 9" hidden="false" collective="false" import="true" targetId="3f48-59a0-1b6f-c897" type="selectionEntry"/>
+        <entryLink id="3b05-531e-817d-2a27" name="A Marshall&apos;s Baton in Every Backpack" hidden="false" collective="false" import="true" targetId="06c1-baf0-c4fc-0426" type="selectionEntry"/>
       </entryLinks>
     </entryLink>
     <entryLink id="bf75-309a-a064-558e" name="Carabinier" hidden="false" collective="false" import="true" targetId="db9a-a2f5-5cb0-53a0" type="selectionEntry">
@@ -121,6 +122,7 @@
       <entryLinks>
         <entryLink id="c23f-f56b-8c8a-71bb" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
         <entryLink id="6a13-8fe2-5d89-3904" name="Staff Rating 9" hidden="false" collective="false" import="true" targetId="3f48-59a0-1b6f-c897" type="selectionEntry"/>
+        <entryLink id="37c3-7586-5089-ff36" name="A Marshall&apos;s Baton in Every Backpack" hidden="false" collective="false" import="true" targetId="06c1-baf0-c4fc-0426" type="selectionEntry"/>
       </entryLinks>
     </entryLink>
     <entryLink id="0eaa-c8ba-ccc0-b832" name="Dragoon" hidden="false" collective="false" import="true" targetId="e766-f94f-5053-63fc" type="selectionEntry">
