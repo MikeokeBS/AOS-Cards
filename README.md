@@ -15,7 +15,7 @@ __What's this?__
 
 Black Powder is a Warlord Games gaming system for a variety of Regency Era historic environments.  This repo currently focusses on Napoleonic Era gaming.
 To create an army, add any number of Divisions, and then add Brigades.
-Due to the restrictions of Battlescribe, there is no way to currently link brigades to divisions.
+
 
 ## Links ##
 
