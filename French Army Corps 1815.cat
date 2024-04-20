@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8dd8-fc93-1443-a00b" name="French Army Corps 1815" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8dd8-fc93-1443-a00b" name="French Army Corps 1815" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="dedd-4cef-da40-bc02" name="French Army Division" hidden="false">
       <categoryLinks>
@@ -32,27 +32,6 @@
         <categoryLink id="9c06-2035-97e3-f73f" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
         <categoryLink id="0774-dc35-6712-e78b" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
         <categoryLink id="e4a0-cd70-b6a7-77d2" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="6cab-ed42-5410-f888" name="Middle Guard Infantry Brigade" hidden="false">
-      <categoryLinks>
-        <categoryLink id="df87-c29a-1968-512d" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
-        <categoryLink id="73c7-873d-72fc-6160" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
-        <categoryLink id="5808-3a9e-bda9-1a4c" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="cbc9-3a68-2758-a33d" name="Old Guard Infantry Brigade" hidden="false">
-      <categoryLinks>
-        <categoryLink id="a5fb-2c39-e157-c5fe" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
-        <categoryLink id="ad08-e360-a292-31fe" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
-        <categoryLink id="49bb-d2db-9b94-6427" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="2b9f-458e-985a-b5a8" name="Young Guard Infantry Brigade" hidden="false">
-      <categoryLinks>
-        <categoryLink id="ed2b-6738-7259-090a" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
-        <categoryLink id="1fe9-65eb-9024-1406" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
-        <categoryLink id="0fb3-084e-bdd4-7106" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
