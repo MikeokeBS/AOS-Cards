@@ -13,17 +13,9 @@ Template Data Repo
 
 __What's this?__
 
-BSData organisation created this project. It's a GitHub repository of datafiles.
-Maintained by community, in no way endorsed by BattleScribe or any other company/publisher. If you want
-to develop - cool! We need you! Take a look at [our homepage][BSData.net]
-
-__Okay, nice project. Is it actually working?__ _I just want those files..._
-
-Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
-
-__I found a bug!__ / *I have another request*
-
-Great, thank you! Please [Report a bug][bug report] - you can also suggest enhancements and raise other issues there.
+Black Powder is a Warlord Games gaming system for a variety of Regency Era historic environments.  This repo currently focusses on Napoleonic Era gaming.
+To create an army, add any number of Divisions, and then add Brigades.
+Due to the restrictions of Battlescribe, there is no way to currently link brigades to divisions.
 
 ## Links ##
 
