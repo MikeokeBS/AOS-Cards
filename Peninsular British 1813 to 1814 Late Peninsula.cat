@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="4642-5ebd-2e9d-2d51" name="Peninsular British 1813 to 1814 Late Peninsula" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry id="8443-b254-facd-d5a9" name="British Division" hidden="false">
+      <forceEntries>
+        <forceEntry id="0bac-efdb-e238-251c" name="British Infantry Brigade (EML)" hidden="false">
+          <categoryLinks>
+            <categoryLink id="f37a-0d3d-3ca8-7ec7" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="1b6b-9d6e-4caf-5b41" name="British Infantry" hidden="false" targetId="19c5-da43-f163-307c" primary="false"/>
+            <categoryLink id="5032-dd59-f46e-0efd" name="British Rifles" hidden="false" targetId="d106-7552-718b-67eb" primary="false"/>
+            <categoryLink id="c96a-9312-f3a0-e947" name="Foot Artillery" hidden="false" targetId="8208-4235-27c7-34cd" primary="false"/>
+            <categoryLink id="9b73-b249-2ef0-5517" name="British Highlander" hidden="false" targetId="0756-0ac7-218e-1400" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="4169-354f-4c97-a78d" name="Portuguese Cavalry Brigade (EML)" hidden="false">
+          <categoryLinks>
+            <categoryLink id="c2c4-b6aa-e9a8-f4f4" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="e779-aea8-225b-0cdc" name="Portuguese Cavalry" hidden="false" targetId="97be-84d5-a806-70b5" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="4de1-f659-9100-f86a" name="Guards Brigade (ML)" hidden="false">
+          <categoryLinks>
+            <categoryLink id="6ab6-e99b-fae5-edce" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="aa54-1c4f-99f1-0771" name="Foot Guards Infantry" hidden="false" targetId="c923-7b50-ce04-2a93" primary="false"/>
+            <categoryLink id="00eb-1812-32a2-0a16" name="British Rifles" hidden="false" targetId="d106-7552-718b-67eb" primary="false"/>
+            <categoryLink id="a1ad-d186-6f5b-bf22" name="Royal Foot Artillery" hidden="false" targetId="e255-ea1f-5617-9d40" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="12e6-0661-a4a6-9916" name="Light Brigade (ML)" hidden="false">
+          <categoryLinks>
+            <categoryLink id="bca4-fc8f-40cf-5c30" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="f54d-3ed3-a12f-5b26" name="Light Infantry" hidden="false" targetId="4df9-f6e1-56e5-0641" primary="false"/>
+            <categoryLink id="e84e-c060-1e6a-d308" name="Cacadores" hidden="false" targetId="bb37-b468-767c-b12e" primary="false"/>
+            <categoryLink id="d560-44d1-7680-f040" name="British Rifles" hidden="false" targetId="d106-7552-718b-67eb" primary="false"/>
+            <categoryLink id="3dfd-0f30-bad1-6b9b" name="Royal Foot Artillery" hidden="false" targetId="e255-ea1f-5617-9d40" primary="false"/>
+            <categoryLink id="8852-eb91-e0f9-a781" name="Portuguese Artillery" hidden="false" targetId="e95f-50ab-51af-c448" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="89d1-47b0-e5a5-1897" name="Portuguese Infantry Brigade (ML)" hidden="false">
+          <categoryLinks>
+            <categoryLink id="e93c-878a-12ad-91f9" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="164a-b2c6-e236-136b" name="Portuguese Infantry" hidden="false" targetId="219a-0c7a-ebf9-177a" primary="false"/>
+            <categoryLink id="1140-a035-5089-9ac4" name="Portuguese Artillery" hidden="false" targetId="e95f-50ab-51af-c448" primary="false"/>
+            <categoryLink id="6a02-5af1-a122-d0e2" name="Cacadores" hidden="false" targetId="bb37-b468-767c-b12e" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="a223-29fe-9a1b-0065" name="KGL Brigade (ML)" hidden="false">
+          <categoryLinks>
+            <categoryLink id="826f-4503-b745-d926" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="a2b1-d685-61fd-dd8b" name="KGL Line Infantry" hidden="false" targetId="7f8b-3e07-f344-54ea" primary="false"/>
+            <categoryLink id="08e5-fe1d-77c4-e9f5" name="KGL Foot Artillery" hidden="false" targetId="2848-259a-62b5-f915" primary="false"/>
+            <categoryLink id="d278-6083-2ad3-f90b" name="KGL Light Infantry" hidden="false" targetId="74f7-d873-f161-5510" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="b3e9-91ed-0e31-d1ae" name="Light Cavalry Brigade (ML)" hidden="false">
+          <categoryLinks>
+            <categoryLink id="967a-9432-9a19-b708" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="88a0-dc75-afbc-9fbe" name="British Light Cavalry" hidden="false" targetId="1fd1-6c36-f8fb-c77d" primary="false"/>
+            <categoryLink id="6734-ea13-7f6d-53a0" name="KGL Light Cavalry" hidden="false" targetId="d729-6543-8e6d-6c12" primary="false"/>
+            <categoryLink id="a40f-7398-2d7e-0c3d" name="KGL Horse Artillery" hidden="false" targetId="076e-a0d2-bed7-772e" primary="false"/>
+            <categoryLink id="0acc-6989-5df8-fc27" name="Royal Horse Artillery" hidden="false" targetId="4562-b4a4-ff4f-0eda" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="516c-591f-290d-5b63" name="Heavy Cavalry (L)" hidden="false">
+          <categoryLinks>
+            <categoryLink id="439a-5fbb-809b-1698" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="5c65-52ea-5386-55a0" name="Heavy Cavalry" hidden="false" targetId="a716-952d-33f2-008f" primary="false"/>
+            <categoryLink id="1c0d-359d-3f3a-5c1d" name="KGL Heavy Cvaalry" hidden="false" targetId="16aa-813f-63c7-2949" primary="false"/>
+            <categoryLink id="9ff7-3300-4eb2-8330" name="KGL Horse Artillery" hidden="false" targetId="076e-a0d2-bed7-772e" primary="false"/>
+            <categoryLink id="5ca1-4f90-5e19-ee08" name="Royal Horse Artillery" hidden="false" targetId="4562-b4a4-ff4f-0eda" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+      </forceEntries>
+      <categoryLinks>
+        <categoryLink id="0079-8d9b-1c6e-44e8" name="Divisional Leader" hidden="false" targetId="25f9-960e-16d9-0271" primary="false"/>
+        <categoryLink id="d6fd-d1b9-4819-da7f" name="Configuration" hidden="false" targetId="a873-6e0d-1021-4c39" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="aab1-56f5-e0f1-a119" name="Brigade Commander" hidden="false" collective="false" import="true" targetId="df8a-eac6-8e8c-012b" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="675e-58e4-d138-70b6" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
+        <entryLink id="1b50-fb78-1535-a1e6" name="Staff Rating 9" hidden="false" collective="false" import="true" targetId="3f48-59a0-1b6f-c897" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="c0be-4b30-4809-cec9" name="Divisional Commander" hidden="false" collective="false" import="true" targetId="c185-173b-1288-7947" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="c23f-f56b-8c8a-71bb" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
+        <entryLink id="6a13-8fe2-5d89-3904" name="Staff Rating 9" hidden="false" collective="false" import="true" targetId="3f48-59a0-1b6f-c897" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="3ce1-3b6a-14e3-f73d" name="British Foot Guards" hidden="false" collective="false" import="true" targetId="c345-71bb-a609-f532" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="0488-8f18-1d4c-073c" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="4923-51ea-7c02-b539" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="e673-c635-cdca-face" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="add0-aa5a-8f98-9325" name="British Light Dragoon Hussar" hidden="false" collective="false" import="true" targetId="b9ab-9144-a3c1-1906" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="85f0-6b6e-c423-8fca" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="cab5-a1f5-a9e3-05db" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="e673-c635-cdca-face" type="selectionEntry"/>
+        <entryLink id="71cf-64e1-fa68-8a09" name="Cavalry exchange Gallop for Ferocious Charge" hidden="false" collective="false" import="true" targetId="f2dd-1443-1f7d-4126" type="selectionEntry"/>
+        <entryLink id="a663-6a46-65e1-0d81" name="Cavalry Upgrade to Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="d74a-44e7-cfb1-1387" name="British Light Infantry" hidden="false" collective="false" import="true" targetId="8bbd-00c1-fb45-5ad6" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="8313-1b6c-07a2-e861" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="0348-1fe7-22b6-432a" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="e673-c635-cdca-face" type="selectionEntry"/>
+        <entryLink id="fdd0-3c88-025d-adb7" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+        <entryLink id="d66d-d10c-ec75-2305" name="Infantry Upgrade to Reliable, Elite 4+" hidden="false" collective="false" import="true" targetId="1d63-fbcb-ac4b-2683" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="c5b0-8d9d-aea0-cca4" name="British Line Infantry" hidden="false" collective="false" import="true" targetId="13ef-cfdf-6ba0-9b7d" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="9e52-37d2-e7fc-22cf" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="6b9b-6013-4286-67eb" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="e673-c635-cdca-face" type="selectionEntry"/>
+        <entryLink id="396c-e617-9c02-aef5" name="Infantry Upgrade to Reliable, Elite 4+" hidden="false" collective="false" import="true" targetId="1d63-fbcb-ac4b-2683" type="selectionEntry"/>
+        <entryLink id="98d5-7349-1156-a13a" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="5348-f134-ead0-27ce" name="KGL Dragoon Guards Cavalry" hidden="false" collective="false" import="true" targetId="67e8-f421-a44e-071a" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="af06-240d-4877-01a2" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="ec78-0b6a-e640-fc1b" name="Highland Infantry" hidden="false" collective="false" import="true" targetId="e578-c886-069c-2e35" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="0aae-7a51-9939-6c3c" name="Highlanders Upgrade to Ferocious Charge" hidden="false" collective="false" import="true" targetId="e265-c052-f86f-bc40" type="selectionEntry"/>
+        <entryLink id="1501-2dae-b90d-f42f" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="c7ff-de17-3343-dadf" name="Infantry Upgrade to Reliable, Elite 4+" hidden="false" collective="false" import="true" targetId="1d63-fbcb-ac4b-2683" type="selectionEntry"/>
+        <entryLink id="d8f5-1260-7c69-aa13" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+        <entryLink id="4516-a843-80a7-36d0" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="e673-c635-cdca-face" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="1370-c000-46d8-e2ca" name="Household Cavalry" hidden="false" collective="false" import="true" targetId="44f0-b405-eda6-5164" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="c5b1-e1be-81fe-1db1" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="1add-5d39-12a2-b658" name="KGL Foot Artillery" hidden="false" collective="false" import="true" targetId="1f3f-0413-0bca-c240" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="0e18-b070-8855-f9f3" name="Artillery Upgrade Veteran, Elite 5+" hidden="false" collective="false" import="true" targetId="66f4-a288-cfcc-0bdf" type="selectionEntry"/>
+        <entryLink id="014e-5676-e778-6802" name="Artillery Upgrade Elite 4+" hidden="false" collective="false" import="true" targetId="cb5e-a1b9-ff37-562e" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="6efd-b65d-19d4-356f" name="KGL Horse Artillery" hidden="false" collective="false" import="true" targetId="dfb2-25f2-bcf2-8d17" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="729b-427e-4da1-f3d3" name="Artillery Upgrade Elite 4+" hidden="false" collective="false" import="true" targetId="cb5e-a1b9-ff37-562e" type="selectionEntry"/>
+        <entryLink id="9762-ee15-33ad-3054" name="Artillery Upgrade Elite 5+" hidden="false" collective="false" import="true" targetId="ba02-168e-a994-0536" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="8fbe-90d5-eb15-1abf" name="KGL Light Dragoon Hussar" hidden="false" collective="false" import="true" targetId="c631-1010-6181-69dd" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="8ebc-c45d-8965-5875" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="daaf-77a2-269f-8598" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="e673-c635-cdca-face" type="selectionEntry"/>
+        <entryLink id="8e9a-0f2c-b8ab-cffb" name="Cavalry Upgrade to Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
+        <entryLink id="a496-9485-8423-15cd" name="Cavalry exchange Gallop for Ferocious Charge" hidden="false" collective="false" import="true" targetId="f2dd-1443-1f7d-4126" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="735f-9d0f-2a3f-d490" name="KGL Light Infantry" hidden="false" collective="false" import="true" targetId="74d7-1afb-25a3-1333" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="3552-aae5-1581-1d97" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="f15b-ff72-3564-7b13" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+        <entryLink id="9519-6c15-60ce-6e61" name="Infantry Upgrade to Veteran, Reliable, Elite 4+" hidden="false" collective="false" import="true" targetId="d44e-05ff-0e73-259d" type="selectionEntry"/>
+        <entryLink id="df35-1a7d-e469-7a73" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="e673-c635-cdca-face" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="1bef-60ff-2b41-35eb" name="KGL Line Infantry" hidden="false" collective="false" import="true" targetId="7f8d-d0bd-c0c3-3032" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="0202-b329-06b2-e354" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="bb54-baaa-58d0-4a9a" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="e673-c635-cdca-face" type="selectionEntry"/>
+        <entryLink id="df48-da87-8f73-66c9" name="Infantry Upgrade to Veteran, Reliable, Elite 4+" hidden="false" collective="false" import="true" targetId="d44e-05ff-0e73-259d" type="selectionEntry"/>
+        <entryLink id="fda3-839a-572b-0734" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="2c15-e715-dbd9-609a" name="Rifle Battalion" hidden="false" collective="false" import="true" targetId="ba25-33f6-1f74-895d" type="selectionEntry"/>
+    <entryLink id="ac9e-c1a4-eb68-916f" name="Rifle Companies (Small)" hidden="false" collective="false" import="true" targetId="4fe6-5bc8-ff9e-b7eb" type="selectionEntry"/>
+    <entryLink id="91ec-47c0-8ca7-98c8" name="Rifle Company (Tiny)" hidden="false" collective="false" import="true" targetId="42dc-d4f8-342c-386a" type="selectionEntry"/>
+    <entryLink id="d2f9-62d3-f14b-5df8" name="Royal Foot Artillery" hidden="false" collective="false" import="true" targetId="71ca-1888-2fe1-fb3a" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="b712-f571-51d0-14be" name="Artillery Upgrade Veteran, Elite 5+" hidden="false" collective="false" import="true" targetId="66f4-a288-cfcc-0bdf" type="selectionEntry"/>
+        <entryLink id="846f-e13e-dd5f-06e0" name="Artillery Upgrade Elite 4+" hidden="false" collective="false" import="true" targetId="cb5e-a1b9-ff37-562e" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="8d0a-5b38-3e5e-37c2" name="Royal Horse Artillery" hidden="false" collective="false" import="true" targetId="e8c9-adfd-d951-3445" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="d46e-04b0-c5c0-50b4" name="Artillery Upgrade Elite 4+" hidden="false" collective="false" import="true" targetId="cb5e-a1b9-ff37-562e" type="selectionEntry"/>
+        <entryLink id="aeb6-328a-11cd-c17c" name="Artillery Upgrade Elite 5+" hidden="false" collective="false" import="true" targetId="ba02-168e-a994-0536" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="2c27-3f7d-1c65-aea2" name="British Dragoons" hidden="false" collective="false" import="true" targetId="c46b-c7d4-51d8-4757" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="2013-a5a1-6cac-8646" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="9624-19f0-b194-88fa" name="Chasseurs Britannique" hidden="false" collective="false" import="true" targetId="c110-dc80-28d4-3a9c" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="fcb6-e8b0-2878-82b7" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="1439-184e-6f31-1980" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="e673-c635-cdca-face" type="selectionEntry"/>
+        <entryLink id="09a1-239a-340b-365a" name="Infantry Upgrade to Reliable, Elite 4+" hidden="false" collective="false" import="true" targetId="1d63-fbcb-ac4b-2683" type="selectionEntry"/>
+        <entryLink id="2216-dee6-b8f4-0b02" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+        <entryLink id="0939-32ad-65d1-9018" name="Downgrade by removing Sharpshooters &amp; Steady Line" hidden="false" collective="false" import="true" targetId="4045-3357-84bc-155e" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="cfeb-ef04-a0ff-a3df" name="Brunswick Light Infantry" hidden="false" collective="false" import="true" targetId="1493-c67f-6170-dcd5" type="selectionEntry"/>
+    <entryLink id="56b3-e1eb-f93e-7047" name="Brusnwick Oels Jaeger Companies" hidden="false" collective="false" import="true" targetId="679b-6522-cc54-78ff" type="selectionEntry"/>
+    <entryLink id="d3ed-d557-fa7d-04c9" name="Brusnwick Oels Jaeger Company" hidden="false" collective="false" import="true" targetId="2088-4444-5430-7813" type="selectionEntry"/>
+    <entryLink id="d005-ff4b-3333-38db" name="Cacadores" hidden="false" collective="false" import="true" targetId="0abf-5811-cefd-9509" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="d014-038d-3a98-491d" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="6e61-61b3-9d2a-783b" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="e673-c635-cdca-face" type="selectionEntry"/>
+        <entryLink id="03f3-a7b9-dc11-c0d3" name="Infantry Upgrade Cacadores to Veteran, Reliable, Elite 4+" hidden="false" collective="false" import="true" targetId="0bf1-d5cf-3d02-a648" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="4575-651c-2374-85f3" name="Portuguese Line Infantry" hidden="false" collective="false" import="true" targetId="ad11-dbbb-8b38-2bff" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="210e-328e-e238-30dc" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="e673-c635-cdca-face" type="selectionEntry"/>
+        <entryLink id="b1be-0bb9-e9f6-cee5" name="Infantry Upgrade to Veteran, Reliable, Elite 4+" hidden="false" collective="false" import="true" targetId="d44e-05ff-0e73-259d" type="selectionEntry"/>
+        <entryLink id="eb56-03aa-96d8-9bf0" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+        <entryLink id="6346-58c0-a900-5c9a" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="898e-a612-1136-b1ab" name="Portuguese Cavalry" hidden="false" collective="false" import="true" targetId="330e-39f8-b583-7903" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="5dc0-ef1e-2b50-dcc3" name="Cavalry remove Wavering" hidden="false" collective="false" import="true" targetId="b907-0363-e732-8e4f" type="selectionEntry"/>
+        <entryLink id="7d12-c5b0-46f3-3f2e" name="Cavalry Upgrade to Regular Size" hidden="false" collective="false" import="true" targetId="f81a-c07b-e036-a7f3" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="cc2c-56c5-0fd2-1b74" name="Portuguese Atrillery" hidden="false" collective="false" import="true" targetId="ba38-9eb6-a1fd-f1ee" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="c185-173b-1288-7947" name="Divisional Commander" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="c69d-7b89-1870-fcee" name="New CategoryLink" hidden="false" targetId="25f9-960e-16d9-0271" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="df8a-eac6-8e8c-012b" name="Brigade Commander" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="e6e4-7ff1-c737-1616" name="New CategoryLink" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7940-7fb2-990e-949d" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21df-5af0-9447-448e" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4858-dc75-3cbd-dc3a" name="Cavalry Upgrade to Reliable and +1 H2H " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fef-bac1-2b6b-dad9" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1d63-fbcb-ac4b-2683" name="Infantry Upgrade to Reliable, Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f9-f519-e9bd-7e27" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfb5-9d7c-4ff5-5530" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1e8-4c55-2652-1184" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6774-1e5b-8e50-7203" name="Infantry Upgrade to Tough" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee6-6bb8-beaa-0fd0" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ff93-49cc-f946-a0f5" name="Infantry downgrade to Morale 5" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70d5-1e36-9493-95bf" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56f8-f3e3-20e5-a709" name="Infantry downgrade to Unreliable" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3396-2257-55c3-5e2c" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0cb1-f95a-1a80-f7a4" name="Infantry Remove Pas de Charge" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66de-b2d7-4e19-239e" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="044e-9de3-5e06-5a03" name="Infantry downgrade to Wavering" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6993-a852-3401-eaff" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aed3-ad98-e57e-9ec2" name="Staff rating 8" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35e4-03e0-7937-567b" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3f48-59a0-1b6f-c897" name="Staff Rating 9" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7997-b287-5c57-3bce" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba02-168e-a994-0536" name="Artillery Upgrade Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f61-0b10-d864-1c05" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb5e-a1b9-ff37-562e" name="Artillery Upgrade Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a04-7ca9-37a9-fe52" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="13ef-cfdf-6ba0-9b7d" name="British Line Infantry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="33f4-2b75-3a92-7ec5" name="New CategoryLink" hidden="false" targetId="19c5-da43-f163-307c" primary="true"/>
+        <categoryLink id="7b55-2b99-9ffe-b6a7" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="39.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f8d-d0bd-c0c3-3032" name="KGL Line Infantry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="bcff-e65a-fd0c-f9a2" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+        <categoryLink id="c665-0889-bbbc-5d0b" name="New CategoryLink" hidden="false" targetId="18cd-31e4-57e1-ad57" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="39.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8bbd-00c1-fb45-5ad6" name="British Light Infantry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="c667-6acc-0d50-3dfd" name="New CategoryLink" hidden="false" targetId="19c5-da43-f163-307c" primary="true"/>
+        <categoryLink id="a05e-f4ea-ac91-9fed" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="42.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="74d7-1afb-25a3-1333" name="KGL Light Infantry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="9d28-e901-31c7-b99a" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+        <categoryLink id="e61b-08f2-03b3-f625" name="New CategoryLink" hidden="false" targetId="18cd-31e4-57e1-ad57" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="43.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c345-71bb-a609-f532" name="British Foot Guards" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="2e4d-8482-36df-376e" name="New CategoryLink" hidden="false" targetId="c923-7b50-ce04-2a93" primary="true"/>
+        <categoryLink id="ad9a-ee20-5ad2-0533" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="62.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e578-c886-069c-2e35" name="Highland Infantry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="23b9-3b49-a6da-4115" name="New CategoryLink" hidden="false" targetId="19c5-da43-f163-307c" primary="false"/>
+        <categoryLink id="2fc5-31bb-5ad7-2f3f" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+        <categoryLink id="dbd7-3980-a07d-a9c6" name="New CategoryLink" hidden="false" targetId="0756-0ac7-218e-1400" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="42dc-d4f8-342c-386a" name="Rifle Company (Tiny)" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="4de6-33b2-b70a-8fe6" name="New CategoryLink" hidden="false" targetId="d106-7552-718b-67eb" primary="true"/>
+        <categoryLink id="b81b-0c2c-405c-8258" name="British Infantry" hidden="false" targetId="19c5-da43-f163-307c" primary="false"/>
+        <categoryLink id="f56b-70aa-e69d-fe60" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4fe6-5bc8-ff9e-b7eb" name="Rifle Companies (Small)" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="c0a7-163a-186d-4464" name="New CategoryLink" hidden="false" targetId="d106-7552-718b-67eb" primary="true"/>
+        <categoryLink id="e954-f9c9-d5e9-829e" name="British Infantry" hidden="false" targetId="19c5-da43-f163-307c" primary="false"/>
+        <categoryLink id="d3b6-ea7f-d89a-e3a7" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="48.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba25-33f6-1f74-895d" name="Rifle Battalion" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="eca7-960b-fb41-c8b0" name="New CategoryLink" hidden="false" targetId="d106-7552-718b-67eb" primary="true"/>
+        <categoryLink id="abb7-4e72-1efc-18a7" name="British Infantry" hidden="false" targetId="19c5-da43-f163-307c" primary="false"/>
+        <categoryLink id="3847-1767-472f-52c0" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="56.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a173-af9a-96f8-878c" name="Hanovarian Field Line Battalion" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="196b-1884-5bf2-9168" name="New CategoryLink" hidden="false" targetId="1e11-9150-ce31-ad1c" primary="true"/>
+        <categoryLink id="fd07-5f0b-d5f1-2975" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="36.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b9a5-4a97-c3a8-1e9f" name="Hanovarian Field Light Battalion" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="6d12-915c-6536-9da5" name="New CategoryLink" hidden="false" targetId="1e11-9150-ce31-ad1c" primary="true"/>
+        <categoryLink id="5faf-4906-e883-525d" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="39.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4c07-da63-843d-c79b" name="Hanovarian Landwehr" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="14fa-2869-14e5-6aee" name="New CategoryLink" hidden="false" targetId="1e11-9150-ce31-ad1c" primary="true"/>
+        <categoryLink id="f677-4814-be77-3d9b" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1925-c2bd-bc76-ab89" name="Hanovarian Jager Companies" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="890f-184d-346a-8524" name="New CategoryLink" hidden="false" targetId="1e11-9150-ce31-ad1c" primary="true"/>
+        <categoryLink id="ff47-064b-0bb9-60f3" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="33.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="67e8-f421-a44e-071a" name="KGL Dragoon Guards Cavalry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="165a-08f1-22e2-321e" name="New CategoryLink" hidden="false" targetId="3324-89fa-41d5-755a" primary="true"/>
+        <categoryLink id="c9fc-9b77-d985-3fd4" name="Heavy Cavalry" hidden="false" targetId="a716-952d-33f2-008f" primary="false"/>
+        <categoryLink id="eb2d-65b3-7000-2117" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="49.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="44f0-b405-eda6-5164" name="Household Cavalry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="47a6-76de-53c4-26bf" name="New CategoryLink" hidden="false" targetId="3324-89fa-41d5-755a" primary="true"/>
+        <categoryLink id="fe69-ff09-b102-c8d1" name="Heavy Cavalry" hidden="false" targetId="a716-952d-33f2-008f" primary="false"/>
+        <categoryLink id="1047-5316-9b66-620c" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="58.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b9ab-9144-a3c1-1906" name="British Light Dragoon Hussar" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7143-c90c-2416-08b4" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="false"/>
+        <categoryLink id="411d-b1e5-96e3-6e9c" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+        <categoryLink id="e9d4-3bd6-5294-0f69" name="New CategoryLink" hidden="false" targetId="1fd1-6c36-f8fb-c77d" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c631-1010-6181-69dd" name="KGL Light Dragoon Hussar" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="8ddf-a68f-d924-1279" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="false"/>
+        <categoryLink id="6a0d-5a38-cb9e-7f36" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+        <categoryLink id="57f2-f262-a45a-d243" name="New CategoryLink" hidden="false" targetId="d729-6543-8e6d-6c12" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="46.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="14b2-da8c-ed7e-80f5" name="Hanovarian Light Cavalry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="5ca3-be8c-cfec-731f" name="New CategoryLink" hidden="false" targetId="44de-4508-f9a6-a0e4" primary="true"/>
+        <categoryLink id="58f2-5824-5f7f-e2a7" name="Light Cavalry" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="false"/>
+        <categoryLink id="5a65-a997-6ba4-b17a" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="41.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d555-7682-88c1-4bc2" name="Hanovarian Duke of Cumberland Hussars" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="6856-4f73-ba56-4b8d" name="New CategoryLink" hidden="false" targetId="44de-4508-f9a6-a0e4" primary="true"/>
+        <categoryLink id="d3a7-b780-0187-be4e" name="Light Cavalry" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="false"/>
+        <categoryLink id="44bc-88de-b148-a715" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="27.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="71ca-1888-2fe1-fb3a" name="Royal Foot Artillery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="4d59-3f6d-e75d-cc35" name="New CategoryLink" hidden="false" targetId="e255-ea1f-5617-9d40" primary="true"/>
+        <categoryLink id="da5e-6a64-b18a-cb85" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="31.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e8c9-adfd-d951-3445" name="Royal Horse Artillery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="2a7a-e1e7-3240-c478" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+        <categoryLink id="08b9-e9b0-6add-a978" name="New CategoryLink" hidden="false" targetId="4562-b4a4-ff4f-0eda" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1f3f-0413-0bca-c240" name="KGL Foot Artillery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7fab-5d2a-ab93-512b" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+        <categoryLink id="a14e-5abd-740d-e8cb" name="New CategoryLink" hidden="false" targetId="2848-259a-62b5-f915" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="31.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dfb2-25f2-bcf2-8d17" name="KGL Horse Artillery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="4037-0ccb-c1f0-a52e" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+        <categoryLink id="f6ed-7c66-3750-ee65" name="New CategoryLink" hidden="false" targetId="076e-a0d2-bed7-772e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6584-5127-9559-7c4c" name="Hanovarian Foot Artillery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="6e0c-911f-8227-ad9d" name="New CategoryLink" hidden="false" targetId="9399-9446-ec85-f908" primary="true"/>
+        <categoryLink id="bfda-9785-46ff-9b6a" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="27.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c46b-c7d4-51d8-4757" name="British Dragoons" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="8ece-02e8-e9dc-174c" name="New CategoryLink" hidden="false" targetId="a716-952d-33f2-008f" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="47.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6d40-dfe7-8484-2e08" name="Hanovarians Upgrade to Fire First" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8054-203c-d074-9de8" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0bf1-d5cf-3d02-a648" name="Infantry Upgrade Cacadores to Veteran, Reliable, Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99b7-2fe4-5269-5130" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e265-c052-f86f-bc40" name="Highlanders Upgrade to Ferocious Charge" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa00-9d4e-44e6-a6ab" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd35-c035-c18c-26c3" name="KGL Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1678-3699-f5db-d610" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="66f4-a288-cfcc-0bdf" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d143-d69f-755c-82f5" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e673-c635-cdca-face" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a68a-fc8d-7d77-91ec" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c110-dc80-28d4-3a9c" name="Chasseurs Britannique" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7b8f-22f3-9286-21ce" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+        <categoryLink id="ef48-931c-f98d-36c2" name="New CategoryLink" hidden="false" targetId="19c5-da43-f163-307c" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0112-58dc-ff37-d6a9" name="Battalion of Detachments" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="6e98-ede5-b1f1-d7d1" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1493-c67f-6170-dcd5" name="Brunswick Light Infantry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="9ffb-421b-914c-e949" name="New CategoryLink" hidden="false" targetId="19c5-da43-f163-307c" primary="true"/>
+        <categoryLink id="c6eb-4643-f22d-8fb5" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="679b-6522-cc54-78ff" name="Brusnwick Oels Jaeger Companies" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="f9de-3f7a-1126-d932" name="New CategoryLink" hidden="false" targetId="19c5-da43-f163-307c" primary="true"/>
+        <categoryLink id="57a2-e611-7da5-de54" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="29.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2088-4444-5430-7813" name="Brusnwick Oels Jaeger Company" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="5c8d-6fd6-8468-0e06" name="New CategoryLink" hidden="false" targetId="19c5-da43-f163-307c" primary="true"/>
+        <categoryLink id="ec73-59e9-7ece-9c82" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad11-dbbb-8b38-2bff" name="Portuguese Line Infantry" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="38.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f790-b4f5-f9fd-10b2" name="Loyal Lusitanian Legion" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="2341-9936-8d9c-16ed" name="New CategoryLink" hidden="false" targetId="219a-0c7a-ebf9-177a" primary="true"/>
+        <categoryLink id="23b0-c8ee-311d-3719" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="41.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0abf-5811-cefd-9509" name="Cacadores" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="4b28-7707-7974-e906" name="New CategoryLink" hidden="false" targetId="bb37-b468-767c-b12e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="52.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="330e-39f8-b583-7903" name="Portuguese Cavalry" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba38-9eb6-a1fd-f1ee" name="Portuguese Atrillery" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="27.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="89b6-b64b-4136-1c9d" name="Army Commander" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="d4a9-52a7-a91d-6886" name="New CategoryLink" hidden="false" targetId="25f9-960e-16d9-0271" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ffc6-7c01-3818-aefc" name="Infantry Upgrade to Ferocious Charge" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2364-bbca-ac49-ed8f" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4045-3357-84bc-155e" name="Downgrade by removing Sharpshooters &amp; Steady Line" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="179b-0cb9-fa14-2b4a" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d44e-05ff-0e73-259d" name="Infantry Upgrade to Veteran, Reliable, Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64de-2ed1-fe6f-001f" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="efdc-23ae-b0db-0468" name="Infantry Downgrade Cacadores removing Reliable, ELite 5+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0da-d65e-7553-0397" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2e6d-2567-d267-459e" name="Brunswick Light Infantry (KGL)" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="1505-8e2f-350e-fe22" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+        <categoryLink id="d293-a9ca-2a8f-21ac" name="New CategoryLink" hidden="false" targetId="74f7-d873-f161-5510" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f2dd-1443-1f7d-4126" name="Cavalry exchange Gallop for Ferocious Charge" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1904-52fa-7fde-b89e" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b907-0363-e732-8e4f" name="Cavalry remove Wavering" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1631-0257-1f48-a58c" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f81a-c07b-e036-a7f3" name="Cavalry Upgrade to Regular Size" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7c8-783a-f060-de35" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db13-a218-30db-cc0b" name="Artillery Upgrade Veteran, Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ad1-c79c-d072-ea8c" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="4.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

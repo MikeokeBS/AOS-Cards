@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="8dd8-fc93-1443-a00b" name="French Army Corps 1815 Waterloo" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry id="dedd-4cef-da40-bc02" name="French Army Division" hidden="false">
+      <forceEntries>
+        <forceEntry id="2225-ae3a-6c32-a7f1" name="French Artilery Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="4a94-f069-b695-0049" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="4055-b418-35a0-babe" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="7144-6495-bc2c-42d5" name="French Cavalry Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="8591-f32e-7115-f513" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="3da0-fe34-8b18-2c5c" name="Light Cavalry" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="false"/>
+            <categoryLink id="5dcc-e442-d726-0fc0" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+            <categoryLink id="6623-4ef2-e15b-012b" name="Medium Cavalry" hidden="false" targetId="0967-e386-c7a6-693d" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="f257-581e-0ab0-1c49" name="French Heavy Cavalry Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="9e7b-77fe-3e92-be93" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="fb4d-85b8-d0b4-95f4" name="Heavy Cavalry" hidden="false" targetId="a716-952d-33f2-008f" primary="false"/>
+            <categoryLink id="a5d2-7129-c462-e56c" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="cd16-005a-17ec-35f6" name="French Infantry Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="0b7e-df12-e898-6156" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="5234-2036-6217-1ad3" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+            <categoryLink id="fa56-f06e-780d-d36b" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+      </forceEntries>
+      <categoryLinks>
+        <categoryLink id="1bb8-bb5b-15b2-262d" name="Divisional Leader" hidden="false" targetId="25f9-960e-16d9-0271" primary="false"/>
+        <categoryLink id="c3a6-7d27-ad29-0a3b" name="Configuration" hidden="false" targetId="a873-6e0d-1021-4c39" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="9ab5-c904-4b8f-2f3b" name="Battalion de Legere" hidden="false" collective="false" import="true" targetId="af28-21df-6cba-872c" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="83d1-73ea-ce8d-e63e" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+        <entryLink id="408a-1020-574a-26cb" name="Infantry Upgrade to Veteran, Reliable, Elite 4+" hidden="false" collective="false" import="true" targetId="1d63-fbcb-ac4b-2683" type="selectionEntry"/>
+        <entryLink id="d8d5-8846-daf4-1118" name="Infantry Upgrade to Tough" hidden="false" collective="false" import="true" targetId="6774-1e5b-8e50-7203" type="selectionEntry"/>
+        <entryLink id="17b6-d701-afc0-182f" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="8da9-ab1f-1d96-e46f" name="Infantry downgrade to Wavering" hidden="false" collective="false" import="true" targetId="044e-9de3-5e06-5a03" type="selectionEntry"/>
+        <entryLink id="ed4e-b10e-2e5e-35ad" name="Infantry downgrade to Morale 5" hidden="false" collective="false" import="true" targetId="ff93-49cc-f946-a0f5" type="selectionEntry"/>
+        <entryLink id="76bd-81a1-0d9f-2fb4" name="Infantry downgrade to Unreliable" hidden="false" collective="false" import="true" targetId="56f8-f3e3-20e5-a709" type="selectionEntry"/>
+        <entryLink id="c28a-7c44-b2ec-b1fb" name="Infantry Remove Pas de Charge" hidden="false" collective="false" import="true" targetId="0cb1-f95a-1a80-f7a4" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="cb88-a585-3845-408c" name="Battalion de Ligne" hidden="false" collective="false" import="true" targetId="0768-744f-5480-067d" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="2a31-cffa-f8ae-fd7a" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="3012-995f-b262-8d6c" name="Infantry downgrade to Morale 5" hidden="false" collective="false" import="true" targetId="ff93-49cc-f946-a0f5" type="selectionEntry"/>
+        <entryLink id="0026-bc82-9701-2011" name="Infantry downgrade to Unreliable" hidden="false" collective="false" import="true" targetId="56f8-f3e3-20e5-a709" type="selectionEntry"/>
+        <entryLink id="623f-6a93-4f3d-e029" name="Infantry downgrade to Wavering" hidden="false" collective="false" import="true" targetId="044e-9de3-5e06-5a03" type="selectionEntry"/>
+        <entryLink id="c7da-e44b-6b12-2205" name="Infantry Remove Pas de Charge" hidden="false" collective="false" import="true" targetId="0cb1-f95a-1a80-f7a4" type="selectionEntry"/>
+        <entryLink id="2309-3b9a-8f41-107e" name="Infantry Upgrade to Tough" hidden="false" collective="false" import="true" targetId="6774-1e5b-8e50-7203" type="selectionEntry"/>
+        <entryLink id="46dc-59d0-b0d7-02c5" name="Infantry Upgrade to Veteran, Reliable, Elite 4+" hidden="false" collective="false" import="true" targetId="1d63-fbcb-ac4b-2683" type="selectionEntry"/>
+        <entryLink id="7b6c-e89d-a05e-6b50" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="aab1-56f5-e0f1-a119" name="Brigade Commander" hidden="false" collective="false" import="true" targetId="df8a-eac6-8e8c-012b" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="675e-58e4-d138-70b6" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
+        <entryLink id="1b50-fb78-1535-a1e6" name="Staff Rating 9" hidden="false" collective="false" import="true" targetId="3f48-59a0-1b6f-c897" type="selectionEntry"/>
+        <entryLink id="3b05-531e-817d-2a27" name="A Marshall&apos;s Baton in Every Backpack" hidden="false" collective="false" import="true" targetId="06c1-baf0-c4fc-0426" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="bf75-309a-a064-558e" name="Carabinier" hidden="false" collective="false" import="true" targetId="db9a-a2f5-5cb0-53a0" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="41dd-c2cc-a9a5-0bdb" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
+        <entryLink id="25e9-ee5b-5d54-3d9a" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="b1aa-30e1-a5c3-480b" name="Chevau-Legers Lancers" hidden="false" collective="false" import="true" targetId="8eea-22ed-60e5-ff40" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="0521-115f-d180-a893" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="6a73-bbe7-01f4-5133" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="b86e-e17f-f075-ab89" name="Combined Voltigeurs/Tirailleur" hidden="false" collective="false" import="true" targetId="0ca9-4e73-ff3d-5ce1" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="3140-f664-9752-6083" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="45e2-c38f-23e5-a4f9" name="Infantry downgrade to Morale 5" hidden="false" collective="false" import="true" targetId="ff93-49cc-f946-a0f5" type="selectionEntry"/>
+        <entryLink id="7ce2-312c-946e-6628" name="Infantry downgrade to Unreliable" hidden="false" collective="false" import="true" targetId="56f8-f3e3-20e5-a709" type="selectionEntry"/>
+        <entryLink id="a553-3931-00a3-57ee" name="Infantry downgrade to Wavering" hidden="false" collective="false" import="true" targetId="044e-9de3-5e06-5a03" type="selectionEntry"/>
+        <entryLink id="c3f5-0717-2c0b-e597" name="Infantry Remove Pas de Charge" hidden="false" collective="false" import="true" targetId="0cb1-f95a-1a80-f7a4" type="selectionEntry"/>
+        <entryLink id="4821-851f-29da-0c77" name="Infantry Upgrade to Tough" hidden="false" collective="false" import="true" targetId="6774-1e5b-8e50-7203" type="selectionEntry"/>
+        <entryLink id="12d6-a62b-0354-d8f6" name="Infantry Upgrade to Veteran, Reliable, Elite 4+" hidden="false" collective="false" import="true" targetId="1d63-fbcb-ac4b-2683" type="selectionEntry"/>
+        <entryLink id="c2e5-9216-1449-bfeb" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="6f30-c1cc-e856-0c71" name="Cuirassier" hidden="false" collective="false" import="true" targetId="5685-52bb-df72-b7fd" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="9510-be64-1f19-c1d0" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="c19d-8643-cd13-3b1d" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="c0be-4b30-4809-cec9" name="Divisional Commander" hidden="false" collective="false" import="true" targetId="c185-173b-1288-7947" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="c23f-f56b-8c8a-71bb" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
+        <entryLink id="6a13-8fe2-5d89-3904" name="Staff Rating 9" hidden="false" collective="false" import="true" targetId="3f48-59a0-1b6f-c897" type="selectionEntry"/>
+        <entryLink id="37c3-7586-5089-ff36" name="A Marshall&apos;s Baton in Every Backpack" hidden="false" collective="false" import="true" targetId="06c1-baf0-c4fc-0426" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="0eaa-c8ba-ccc0-b832" name="Dragoon" hidden="false" collective="false" import="true" targetId="e766-f94f-5053-63fc" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="7b4d-f77b-9284-dfbd" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="33a5-5fca-1523-3689" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="6677-5c76-019a-ea21" name="Foot Artillery" hidden="false" collective="false" import="true" targetId="615b-091c-9e05-fb48" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="60e9-abdd-b86b-bb8b" name="Artillery Upgrade Reliable, Elite 4+" hidden="false" collective="false" import="true" targetId="cb5e-a1b9-ff37-562e" type="selectionEntry"/>
+        <entryLink id="9542-a2e8-13ad-d366" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="ba02-168e-a994-0536" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="856a-74c6-e2b5-7101" name="Grenadier/Combined Grenadier" hidden="false" collective="false" import="true" targetId="bcf9-1901-e099-c1dc" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="a801-eea0-f7d1-2c33" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="5773-9160-2a43-73c0" name="Infantry downgrade to Morale 5" hidden="false" collective="false" import="true" targetId="ff93-49cc-f946-a0f5" type="selectionEntry"/>
+        <entryLink id="f1d5-8f29-4827-f259" name="Infantry downgrade to Unreliable" hidden="false" collective="false" import="true" targetId="56f8-f3e3-20e5-a709" type="selectionEntry"/>
+        <entryLink id="5ec0-b7d2-5355-1939" name="Infantry downgrade to Wavering" hidden="false" collective="false" import="true" targetId="044e-9de3-5e06-5a03" type="selectionEntry"/>
+        <entryLink id="d2c8-7a3e-2354-d3bd" name="Infantry Remove Pas de Charge" hidden="false" collective="false" import="true" targetId="0cb1-f95a-1a80-f7a4" type="selectionEntry"/>
+        <entryLink id="eb12-103a-0b52-10bc" name="Infantry Upgrade to Tough" hidden="false" collective="false" import="true" targetId="6774-1e5b-8e50-7203" type="selectionEntry"/>
+        <entryLink id="2930-d464-71ec-9045" name="Infantry Upgrade to Veteran, Reliable, Elite 4+" hidden="false" collective="false" import="true" targetId="1d63-fbcb-ac4b-2683" type="selectionEntry"/>
+        <entryLink id="174c-3281-2cf2-2c5e" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="99e4-4232-b7ee-8103" name="Heavy Foot Artillery" hidden="false" collective="false" import="true" targetId="34a5-fb60-dd9c-9ad6" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="8687-c23f-24a0-2a9c" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="ba02-168e-a994-0536" type="selectionEntry"/>
+        <entryLink id="ecd9-70d6-33b5-e598" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="ba02-168e-a994-0536" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="6a26-d703-98fd-4056" name="Horse Artillery" hidden="false" collective="false" import="true" targetId="7285-aa88-ba32-6274" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="9253-d914-df7c-1ac4" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="ba02-168e-a994-0536" type="selectionEntry"/>
+        <entryLink id="f6c6-72e0-74af-64c0" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="ba02-168e-a994-0536" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="ae11-e613-6e98-d98d" name="Line Light Cavalry" hidden="false" collective="false" import="true" targetId="0a7f-0b54-e39b-c613" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="f115-8cb1-e52e-7b7a" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="5176-b59e-cf18-d926" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="0768-744f-5480-067d" name="Battalion de Ligne" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="985e-755e-39ed-3d26" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="38.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c185-173b-1288-7947" name="Divisional Commander" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="c69d-7b89-1870-fcee" name="New CategoryLink" hidden="false" targetId="25f9-960e-16d9-0271" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="df8a-eac6-8e8c-012b" name="Brigade Commander" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="e6e4-7ff1-c737-1616" name="New CategoryLink" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="af28-21df-6cba-872c" name="Battalion de Legere" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="a875-2e17-123f-f5df" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="41.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bcf9-1901-e099-c1dc" name="Grenadier/Combined Grenadier" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="22cf-ca4c-ff43-40d4" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="43.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ca9-4e73-ff3d-5ce1" name="Combined Voltigeurs/Tirailleur" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="6820-c848-15bb-3ae3" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5685-52bb-df72-b7fd" name="Cuirassier" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7493-b4c2-e5c8-30b9" name="New CategoryLink" hidden="false" targetId="a716-952d-33f2-008f" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="58.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db9a-a2f5-5cb0-53a0" name="Carabinier" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="a54b-8cdb-e594-167a" name="New CategoryLink" hidden="false" targetId="a716-952d-33f2-008f" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="58.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8eea-22ed-60e5-ff40" name="Chevau-Legers Lancers" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="a317-6663-7fb1-3237" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="48.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e766-f94f-5053-63fc" name="Dragoon" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="5655-dc60-187c-52d1" name="New CategoryLink" hidden="false" targetId="a716-952d-33f2-008f" primary="true"/>
+        <categoryLink id="abae-e443-9212-944b" name="Medium Cavalry" hidden="false" targetId="0967-e386-c7a6-693d" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a7f-0b54-e39b-c613" name="Line Light Cavalry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="6dd4-b92f-370b-dfbb" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="41.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="615b-091c-9e05-fb48" name="Foot Artillery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="3a8e-a69c-7060-4800" name="New CategoryLink" hidden="false" targetId="61c1-c7f2-1762-2913" primary="true"/>
+        <categoryLink id="16c9-ac7d-a447-8184" name="New CategoryLink" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="27.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="34a5-fb60-dd9c-9ad6" name="Heavy Foot Artillery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="dfa4-28ac-67e5-db6a" name="New CategoryLink" hidden="false" targetId="61c1-c7f2-1762-2913" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="31.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7285-aa88-ba32-6274" name="Horse Artillery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="df3e-796a-fa01-7435" name="New CategoryLink" hidden="false" targetId="61c1-c7f2-1762-2913" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7940-7fb2-990e-949d" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21df-5af0-9447-448e" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4858-dc75-3cbd-dc3a" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fef-bac1-2b6b-dad9" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1d63-fbcb-ac4b-2683" name="Infantry Upgrade to Veteran, Reliable, Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f9-f519-e9bd-7e27" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfb5-9d7c-4ff5-5530" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1e8-4c55-2652-1184" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6774-1e5b-8e50-7203" name="Infantry Upgrade to Tough" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee6-6bb8-beaa-0fd0" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ff93-49cc-f946-a0f5" name="Infantry downgrade to Morale 5" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70d5-1e36-9493-95bf" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56f8-f3e3-20e5-a709" name="Infantry downgrade to Unreliable" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3396-2257-55c3-5e2c" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0cb1-f95a-1a80-f7a4" name="Infantry Remove Pas de Charge" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66de-b2d7-4e19-239e" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="044e-9de3-5e06-5a03" name="Infantry downgrade to Wavering" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6993-a852-3401-eaff" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="06c1-baf0-c4fc-0426" name="A Marshall&apos;s Baton in Every Backpack" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d24-500c-93f0-8b51" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aed3-ad98-e57e-9ec2" name="Staff rating 8" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35e4-03e0-7937-567b" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3f48-59a0-1b6f-c897" name="Staff Rating 9" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7997-b287-5c57-3bce" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba02-168e-a994-0536" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f61-0b10-d864-1c05" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb5e-a1b9-ff37-562e" name="Artillery Upgrade Reliable, Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a04-7ca9-37a9-fe52" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="10.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

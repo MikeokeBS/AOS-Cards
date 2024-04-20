@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d44b-459f-4303-5b74" name="Brunswick (Anglo Netherlands) 1815 Waterloo" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry id="b634-a3a0-6ad4-39a6" name="Brunswick Division" hidden="false">
+      <forceEntries>
+        <forceEntry id="c35f-7ada-2f84-526b" name="Brunswick Advanced Guard Independant Command" hidden="false">
+          <categoryLinks>
+            <categoryLink id="aeef-2c35-2d02-7e36" name="Brunswick Vanguard Infantry" hidden="false" targetId="24d7-1488-e209-2c99" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="98d1-0fca-722e-5b03" name="Brunswick Cavalry Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="92f0-2abd-2e8b-4b8d" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="13af-0b7f-2ca3-9ee2" name="Light Cavalry" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="false"/>
+            <categoryLink id="ef78-7b27-d295-60bb" name="Horse Artillery" hidden="false" targetId="c8ef-ba28-3668-dfee" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="e0c5-36ab-6a99-915f" name="Brunswick Infantry Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="12be-5e88-81c1-704e" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="3731-7401-f21e-4595" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+            <categoryLink id="2ed6-9bb2-1646-ea0c" name="Foot Artillery" hidden="false" targetId="8208-4235-27c7-34cd" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+      </forceEntries>
+      <categoryLinks>
+        <categoryLink id="194e-0530-418b-51a9" name="Divisional Leader" hidden="false" targetId="25f9-960e-16d9-0271" primary="false"/>
+        <categoryLink id="cdc0-e80c-a403-07cf" name="Configuration" hidden="false" targetId="a873-6e0d-1021-4c39" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="aab1-56f5-e0f1-a119" name="Brigade Commander" hidden="false" collective="false" import="true" targetId="df8a-eac6-8e8c-012b" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="675e-58e4-d138-70b6" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="c0be-4b30-4809-cec9" name="Divisional Commander" hidden="false" collective="false" import="true" targetId="c185-173b-1288-7947" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="c23f-f56b-8c8a-71bb" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="82d9-20c3-5478-1146" name="Brunswick Hussar" hidden="false" collective="false" import="true" targetId="9647-5759-8e39-2e90" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="b75d-ac18-be26-61ad" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98f1-e881-4bbc-50ed" type="selectionEntry"/>
+        <entryLink id="fc8b-6bd8-ff66-d9d2" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="3d38-e2ac-1018-e801" name="Brunswick Leib Light" hidden="false" collective="false" import="true" targetId="a599-0748-6b01-af01" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="77f5-b896-581b-6330" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="1d87-ad5d-6d76-750b" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98f1-e881-4bbc-50ed" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="5430-e06f-48ca-524c" name="Brunswick Light Infantry" hidden="false" collective="false" import="true" targetId="2b39-8587-7e11-77b7" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="8080-2851-91ac-9850" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="f31b-32cc-0d4a-7324" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98f1-e881-4bbc-50ed" type="selectionEntry"/>
+        <entryLink id="0882-147c-1336-c97e" name="Infantry remove Unreliable" hidden="false" collective="false" import="true" targetId="314a-54ab-48b9-bfc9" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="502b-6b29-3de6-8b5c" name="Brunswick Line Battalion" hidden="false" collective="false" import="true" targetId="5405-8571-7172-7255" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="1901-7d00-2e55-2ce1" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="a165-ddff-e326-4fb9" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98f1-e881-4bbc-50ed" type="selectionEntry"/>
+        <entryLink id="66be-7677-3784-362d" name="Infantry remove Unreliable" hidden="false" collective="false" import="true" targetId="314a-54ab-48b9-bfc9" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="b035-d16a-b4de-1739" name="Brunswick Uhlan" hidden="false" collective="false" import="true" targetId="acc9-b956-75cd-5cab" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="f7d0-bfcb-f238-540d" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98f1-e881-4bbc-50ed" type="selectionEntry"/>
+        <entryLink id="7fe4-10a9-8f16-afe1" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="400d-9366-2481-a9df" name="Brunswick Uhlan Squadron (Small)" hidden="false" collective="false" import="true" targetId="7c3d-be97-1fcf-21c9" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="e4a3-307f-0e4a-cbd3" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98f1-e881-4bbc-50ed" type="selectionEntry"/>
+        <entryLink id="5455-dccd-166f-3516" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="8836-c2b2-f8e7-2bca" name="Brunswick Vanguard Battalion" hidden="false" collective="false" import="true" targetId="e25e-0185-f2f1-83d9" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="ab87-19c7-146b-7066" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="7a57-336d-7ff5-31ba" name="Brunswick Vanguard Jager Companies" hidden="false" collective="false" import="true" targetId="9633-e82a-76dd-0a4b" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="d3fd-3ede-1827-0598" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="41e1-aa22-9de6-c4fa" name="Brunswick Vanguard Light Companies" hidden="false" collective="false" import="true" targetId="740a-b160-9125-204a" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="eb9d-9d0b-1d13-153e" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="f2b0-3a43-5bf0-0665" name="Brusnwick Foot Battery" hidden="false" collective="false" import="true" targetId="4bcc-8334-5195-f160" type="selectionEntry"/>
+    <entryLink id="cb94-f654-a060-6c3c" name="Brusnwick Horse Battery" hidden="false" collective="false" import="true" targetId="b2b0-a322-7b27-ee69" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="c185-173b-1288-7947" name="Divisional Commander" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="c69d-7b89-1870-fcee" name="New CategoryLink" hidden="false" targetId="25f9-960e-16d9-0271" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="df8a-eac6-8e8c-012b" name="Brigade Commander" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="e6e4-7ff1-c737-1616" name="New CategoryLink" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7940-7fb2-990e-949d" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21df-5af0-9447-448e" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4858-dc75-3cbd-dc3a" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fef-bac1-2b6b-dad9" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1d63-fbcb-ac4b-2683" name="Infantry Upgrade to Veteran, Reliable, Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f9-f519-e9bd-7e27" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfb5-9d7c-4ff5-5530" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1e8-4c55-2652-1184" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6774-1e5b-8e50-7203" name="Infantry Upgrade to Tough" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee6-6bb8-beaa-0fd0" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ff93-49cc-f946-a0f5" name="Infantry downgrade to Morale 5" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70d5-1e36-9493-95bf" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56f8-f3e3-20e5-a709" name="Infantry downgrade to Unreliable" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3396-2257-55c3-5e2c" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0cb1-f95a-1a80-f7a4" name="Infantry Remove Pas de Charge" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66de-b2d7-4e19-239e" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="044e-9de3-5e06-5a03" name="Infantry downgrade to Wavering" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6993-a852-3401-eaff" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aed3-ad98-e57e-9ec2" name="Staff rating 8" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35e4-03e0-7937-567b" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3f48-59a0-1b6f-c897" name="Staff Rating 9" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7997-b287-5c57-3bce" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba02-168e-a994-0536" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f61-0b10-d864-1c05" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb5e-a1b9-ff37-562e" name="Artillery Upgrade Reliable, Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a04-7ca9-37a9-fe52" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a599-0748-6b01-af01" name="Brunswick Leib Light" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="c476-1517-0358-fb0b" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="43.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5405-8571-7172-7255" name="Brunswick Line Battalion" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="a2c1-2d1a-8671-bc5d" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="33.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b39-8587-7e11-77b7" name="Brunswick Light Infantry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="5457-871b-496d-bf2f" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="36.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9633-e82a-76dd-0a4b" name="Brunswick Vanguard Jager Companies" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="5193-fbad-5e24-cc57" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+        <categoryLink id="90d1-3e97-b4dc-fa56" name="New CategoryLink" hidden="false" targetId="24d7-1488-e209-2c99" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="38.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="740a-b160-9125-204a" name="Brunswick Vanguard Light Companies" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="32e8-b170-9972-730a" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+        <categoryLink id="01a0-820f-1db4-b4c1" name="New CategoryLink" hidden="false" targetId="24d7-1488-e209-2c99" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="36.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e25e-0185-f2f1-83d9" name="Brunswick Vanguard Battalion" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7ead-2cd9-ef37-bba5" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+        <categoryLink id="637f-88a8-8f53-f191" name="New CategoryLink" hidden="false" targetId="24d7-1488-e209-2c99" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="46.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9647-5759-8e39-2e90" name="Brunswick Hussar" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="28c3-5593-4623-fd8a" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="true"/>
+        <categoryLink id="e197-fbd7-5d5c-afdd" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="41.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="acc9-b956-75cd-5cab" name="Brunswick Uhlan" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="3582-d380-d122-0f2c" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="true"/>
+        <categoryLink id="83a8-71a3-be16-cba5" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="48.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7c3d-be97-1fcf-21c9" name="Brunswick Uhlan Squadron (Small)" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="790b-4482-65b4-2d57" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="true"/>
+        <categoryLink id="c97f-f027-4e53-a1d4" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b2b0-a322-7b27-ee69" name="Brusnwick Horse Battery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="f0fb-dc22-1986-c38b" name="New CategoryLink" hidden="false" targetId="c8ef-ba28-3668-dfee" primary="true"/>
+        <categoryLink id="392f-cb33-270d-978c" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4bcc-8334-5195-f160" name="Brusnwick Foot Battery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="c8e1-d261-5c86-b47e" name="New CategoryLink" hidden="false" targetId="8208-4235-27c7-34cd" primary="true"/>
+        <categoryLink id="a8b2-677e-cb73-cdad" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="27.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="98f1-e881-4bbc-50ed" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce79-3e6a-b53a-7032" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="314a-54ab-48b9-bfc9" name="Infantry remove Unreliable" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="3.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

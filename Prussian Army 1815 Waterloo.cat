@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="dbbd-e702-d18a-a1cb" name="Prussian Army 1815 Waterloo" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry id="81f8-1ed0-6cdb-20b1" name="Prussian Brigade Commander" hidden="false">
+      <categoryLinks>
+        <categoryLink id="eea4-e273-e3da-3bc2" name="Divisional Leader" hidden="false" targetId="25f9-960e-16d9-0271" primary="false"/>
+        <categoryLink id="8e7e-1436-d996-5613" name="Configuration" hidden="false" targetId="a873-6e0d-1021-4c39" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="1d8b-b1a3-c516-abce" name="Prussian Infantry Brigade" hidden="false">
+      <categoryLinks>
+        <categoryLink id="33f3-bdf3-b0cf-7bbe" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+        <categoryLink id="b8f9-c634-fb59-064d" name="Foot Artillery" hidden="false" targetId="8208-4235-27c7-34cd" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="b001-1923-c16d-7118" name="Prussian Cavalry Brigade" hidden="false">
+      <categoryLinks>
+        <categoryLink id="f7e6-5e2a-e664-4983" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+        <categoryLink id="6dd1-90fc-cbf5-0ec7" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+        <categoryLink id="5905-639d-09e5-4f7a" name="Horse Artillery" hidden="false" targetId="c8ef-ba28-3668-dfee" primary="false"/>
+        <categoryLink id="c70d-1eee-dc27-36d3" name="Heavy Cavalry" hidden="false" targetId="a716-952d-33f2-008f" primary="false"/>
+        <categoryLink id="80f4-8451-0e01-a6ae" name="Light Cavalry" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="4675-bece-5304-4b7f" name="Prussian Landwehr Cavalry Brigade" hidden="false">
+      <categoryLinks>
+        <categoryLink id="3012-c8ff-922d-959a" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+        <categoryLink id="481c-e4ec-7216-70cc" name="Landwehr Cavalry" hidden="false" targetId="b041-21d2-f523-442f" primary="false"/>
+        <categoryLink id="5b3a-b3e9-d52d-9913" name="Horse Artillery" hidden="false" targetId="c8ef-ba28-3668-dfee" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="aab1-56f5-e0f1-a119" name="Infantry Brigade Commander" hidden="false" collective="false" import="true" targetId="df8a-eac6-8e8c-012b" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="675e-58e4-d138-70b6" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
+        <entryLink id="8fc8-39c1-ceaa-7f20" name="Staff Rating 9" hidden="false" collective="false" import="true" targetId="3f48-59a0-1b6f-c897" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="d6c0-f49b-bf41-db9b" name="Cavalry Brigade Commander" hidden="false" collective="false" import="true" targetId="83a1-d90c-0d69-e4ca" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="7951-7b49-47f9-5d93" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="b7fc-4da2-9b81-a872" name="Prussian Dragoon" hidden="false" collective="false" import="true" targetId="128c-3451-91ad-0fb3" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="4e9e-909e-a037-0bab" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
+        <entryLink id="1485-843a-d317-426d" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="05da-da71-caf0-c949" name="Prussian Fusilier" hidden="false" collective="false" import="true" targetId="0d5c-2fb2-b9c3-4681" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="ba1d-7df5-99bf-927a" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="4417-8d94-79c9-720b" type="selectionEntry"/>
+        <entryLink id="5b5f-a436-d619-b5f7" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+        <entryLink id="1f24-4bb8-83d1-e608" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="8b48-6713-8769-3e6e" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="e910-62fb-75b9-04ce" name="Prussian Hussars" hidden="false" collective="false" import="true" targetId="3aaf-d8fc-00c2-9c5a" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="77fd-3ee9-6111-0335" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
+        <entryLink id="87af-6e63-949f-c4c6" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="ff06-a0cb-d637-0f09" name="Prussian Hussars (Small)" hidden="false" collective="false" import="true" targetId="4d9c-b60b-31c0-1a60" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="d455-2681-70e4-eed1" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="7b6a-5b32-837e-0539" name="Prussian Jager Battalion" hidden="false" collective="false" import="true" targetId="ab34-2bb3-d13a-7930" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="716f-e05a-2d39-a1e6" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="4417-8d94-79c9-720b" type="selectionEntry"/>
+        <entryLink id="8113-40ce-664e-9af8" name="Infantry downgrade to Unreliable" hidden="false" collective="false" import="true" targetId="56f8-f3e3-20e5-a709" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="3915-89ed-7951-c7b1" name="Prussian Jager Companies" hidden="false" collective="false" import="true" targetId="5595-c0e5-bf38-bc50" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="fb1b-98c3-e2d2-0971" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="4417-8d94-79c9-720b" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="1f15-b0ba-6d8e-3e4b" name="Prussian Jager Company" hidden="false" collective="false" import="true" targetId="d1b8-6a14-3ffb-da87" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="7947-1b6d-20de-377b" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="4417-8d94-79c9-720b" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="0b66-f8ad-ef5f-3cbf" name="Prussian Landwehr Infantry" hidden="false" collective="false" import="true" targetId="4da7-af45-e6a2-fe52" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="000c-4195-7e3a-46a4" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="4417-8d94-79c9-720b" type="selectionEntry"/>
+        <entryLink id="ba81-ef29-42a3-d0fc" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="15cc-1e9a-a7b3-b61e" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="9bd9-2bc7-a23a-1141" name="Prussian Mounted Landwehr" hidden="false" collective="false" import="true" targetId="ae3a-0b40-a64a-a325" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="1724-e8fb-fa31-a982" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="e503-df88-11cd-1df8" name="Prussian Mounted Landwehr (Small)" hidden="false" collective="false" import="true" targetId="2410-a71c-e278-8b27" type="selectionEntry"/>
+    <entryLink id="19eb-ca37-70d1-9491" name="Prussian Muskateer" hidden="false" collective="false" import="true" targetId="2c55-be5a-999e-07eb" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="0349-19ea-2425-bec0" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="4417-8d94-79c9-720b" type="selectionEntry"/>
+        <entryLink id="9365-11f9-f5ed-bef0" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+        <entryLink id="566b-c731-7840-bec2" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="bfc8-6e8a-0c06-fe6f" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="6337-04cd-6bb6-95a0" name="Prussian Schutzen" hidden="false" collective="false" import="true" targetId="5307-57bf-d00f-21c2" type="selectionEntry"/>
+    <entryLink id="5c7a-3ed4-ad43-9ac1" name="Prussian Uhlan" hidden="false" collective="false" import="true" targetId="77fe-ff71-96b3-acaf" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="ca10-b477-32ea-4450" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
+        <entryLink id="6f49-43f7-38e2-3e73" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="77b7-22ab-e6e2-6e12" name="Prussian Heavy Artillery" hidden="false" collective="false" import="true" targetId="9a27-359a-2cc0-ec22" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="575a-76ff-33f3-af0e" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="ba02-168e-a994-0536" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="9d34-2558-04ec-b286" name="Prussian Foot Artillery" hidden="false" collective="false" import="true" targetId="23f3-8459-2a8a-288a" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="b978-0324-82a2-1cff" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="ba02-168e-a994-0536" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="ddb3-1e3c-988b-8a59" name="Prussian Horse Artillery" hidden="false" collective="false" import="true" targetId="697f-34fa-e160-0ba9" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="8fdf-4e7f-b9d2-6f5f" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="ba02-168e-a994-0536" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="4161-b32e-57f5-4140" name="Prussian Sub-Commander" hidden="false" collective="false" import="true" targetId="c3ea-1656-fc41-7ae0" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="c185-173b-1288-7947" name="Divisional Commander" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="c69d-7b89-1870-fcee" name="New CategoryLink" hidden="false" targetId="25f9-960e-16d9-0271" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="df8a-eac6-8e8c-012b" name="Infantry Brigade Commander" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="e6e4-7ff1-c737-1616" name="New CategoryLink" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+        <categoryLink id="e88f-8063-efd2-3d3c" name="New CategoryLink" hidden="false" targetId="25f9-960e-16d9-0271" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7940-7fb2-990e-949d" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21df-5af0-9447-448e" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4858-dc75-3cbd-dc3a" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fef-bac1-2b6b-dad9" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1d63-fbcb-ac4b-2683" name="Infantry Upgrade to Veteran, Reliable, Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f9-f519-e9bd-7e27" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfb5-9d7c-4ff5-5530" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1e8-4c55-2652-1184" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6774-1e5b-8e50-7203" name="Infantry Upgrade to Tough" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee6-6bb8-beaa-0fd0" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ff93-49cc-f946-a0f5" name="Infantry downgrade to Morale 5" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70d5-1e36-9493-95bf" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56f8-f3e3-20e5-a709" name="Infantry downgrade to Unreliable" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3396-2257-55c3-5e2c" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0cb1-f95a-1a80-f7a4" name="Infantry Remove Pas de Charge" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66de-b2d7-4e19-239e" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="044e-9de3-5e06-5a03" name="Infantry downgrade to Wavering" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6993-a852-3401-eaff" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="06c1-baf0-c4fc-0426" name="A Marshall&apos;s Baton in Every Backpack" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d24-500c-93f0-8b51" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aed3-ad98-e57e-9ec2" name="Staff rating 8" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35e4-03e0-7937-567b" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3f48-59a0-1b6f-c897" name="Staff Rating 9" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7997-b287-5c57-3bce" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba02-168e-a994-0536" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f61-0b10-d864-1c05" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb5e-a1b9-ff37-562e" name="Artillery Upgrade Reliable, Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a04-7ca9-37a9-fe52" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="83a1-d90c-0d69-e4ca" name="Cavalry Brigade Commander" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="8b4c-0ccd-7ca3-9722" name="New CategoryLink" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ab34-2bb3-d13a-7930" name="Prussian Jager Battalion" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="11c3-bcbd-c605-b3d6" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0d5c-2fb2-b9c3-4681" name="Prussian Fusilier" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="2cdb-9555-ac4a-473a" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="39.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2c55-be5a-999e-07eb" name="Prussian Muskateer" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="8f6d-417e-9bf2-2ab9" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="36.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5595-c0e5-bf38-bc50" name="Prussian Jager Companies" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="bbd7-c0aa-17b7-faf6" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="42.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d1b8-6a14-3ffb-da87" name="Prussian Jager Company" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7d9d-8db8-decd-c3f2" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="21.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5307-57bf-d00f-21c2" name="Prussian Schutzen" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="a077-464b-9b7a-55e2" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="32.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4da7-af45-e6a2-fe52" name="Prussian Landwehr Infantry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="5bcb-3a90-e4ac-7276" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="33.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="128c-3451-91ad-0fb3" name="Prussian Dragoon" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7bd3-2291-f297-e62e" name="New CategoryLink" hidden="false" targetId="a716-952d-33f2-008f" primary="true"/>
+        <categoryLink id="c89d-0eaf-0860-3448" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="77fe-ff71-96b3-acaf" name="Prussian Uhlan" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="a998-113a-ffb4-fe3b" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="true"/>
+        <categoryLink id="543e-e02a-ffa3-724b" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="48.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3aaf-d8fc-00c2-9c5a" name="Prussian Hussars" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="614f-daa3-91e4-2011" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="true"/>
+        <categoryLink id="92ec-0924-84e9-10ef" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="41.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae3a-0b40-a64a-a325" name="Prussian Mounted Landwehr" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="438d-d63c-4fa6-cb36" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+        <categoryLink id="e2b0-09cb-541a-bcdd" name="New CategoryLink" hidden="false" targetId="b041-21d2-f523-442f" primary="true"/>
+        <categoryLink id="0f15-f771-6122-ef4e" name="Light Cavalry" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="32.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="23f3-8459-2a8a-288a" name="Prussian Foot Artillery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="bd10-2660-cf20-035d" name="New CategoryLink" hidden="false" targetId="8208-4235-27c7-34cd" primary="true"/>
+        <categoryLink id="f2f1-61a0-0a0a-1d34" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="27.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9a27-359a-2cc0-ec22" name="Prussian Heavy Artillery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="3432-a362-884d-0fcd" name="New CategoryLink" hidden="false" targetId="8208-4235-27c7-34cd" primary="true"/>
+        <categoryLink id="ffa3-9ddb-7847-2a6d" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="31.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="697f-34fa-e160-0ba9" name="Prussian Horse Artillery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="b9b0-567c-a10f-69d8" name="New CategoryLink" hidden="false" targetId="c8ef-ba28-3668-dfee" primary="true"/>
+        <categoryLink id="81a8-96e8-5f8f-b576" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4d9c-b60b-31c0-1a60" name="Prussian Hussars (Small)" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="b836-e7e0-019c-5187" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="false"/>
+        <categoryLink id="0464-d72d-51ef-ff91" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+        <categoryLink id="2b54-2f31-717c-78b9" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="33.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2410-a71c-e278-8b27" name="Prussian Mounted Landwehr (Small)" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="78a4-c965-b20b-867a" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+        <categoryLink id="d090-5462-d013-ec51" name="New CategoryLink" hidden="false" targetId="b041-21d2-f523-442f" primary="false"/>
+        <categoryLink id="63d2-3d64-8661-d1c4" name="Light Cavalry" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="false"/>
+        <categoryLink id="a334-4da0-d80e-f801" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4417-8d94-79c9-720b" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25eb-618d-e327-71f2" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="43e6-fa91-1698-59c0" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6d1-30a2-6c06-cbf2" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c3ea-1656-fc41-7ae0" name="Prussian Sub-Commander" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="b7f3-0dcd-2e3a-490b" name="New CategoryLink" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+        <categoryLink id="32b1-d6ff-6694-9f27" name="New CategoryLink" hidden="false" targetId="25f9-960e-16d9-0271" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="10.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

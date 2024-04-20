@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0ccf-a014-6165-2fa1" name="Black Powder v2" revision="2" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0ccf-a014-6165-2fa1" name="Black Powder v2" revision="6" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="13f0-c899-d38c-59a8" name="Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -45,6 +45,16 @@
     <categoryEntry id="9106-b394-6321-1574" name="Horse Artillery" hidden="false"/>
     <categoryEntry id="4562-b4a4-ff4f-0eda" name="Royal Horse Artillery" hidden="false"/>
     <categoryEntry id="076e-a0d2-bed7-772e" name="KGL Horse Artillery" hidden="false"/>
+    <categoryEntry id="d9e1-6c27-477f-35fa" name="Portuguese Light Infantry" hidden="false"/>
+    <categoryEntry id="219a-0c7a-ebf9-177a" name="Portuguese Infantry" hidden="false"/>
+    <categoryEntry id="97be-84d5-a806-70b5" name="Portuguese Cavalry" hidden="false"/>
+    <categoryEntry id="e95f-50ab-51af-c448" name="Portuguese Artillery" hidden="false"/>
+    <categoryEntry id="16aa-813f-63c7-2949" name="KGL Heavy Cvaalry" hidden="false"/>
+    <categoryEntry id="bb37-b468-767c-b12e" name="Cacadores" hidden="false"/>
+    <categoryEntry id="7f8b-3e07-f344-54ea" name="KGL Line Infantry" hidden="false"/>
+    <categoryEntry id="74f7-d873-f161-5510" name="KGL Light Infantry" hidden="false"/>
+    <categoryEntry id="6b79-3478-87ad-f945" name="Reserve" hidden="false"/>
+    <categoryEntry id="98e9-5729-f2d9-1120" name="Vanguard" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="f6a7-15c3-4fd7-9f66" name="Unbound" hidden="false">

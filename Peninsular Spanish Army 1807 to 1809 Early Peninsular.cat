@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="5cd0-2fef-306a-b908" name="Peninsular Spanish Army 1807 to 1809 Early Peninsular" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry id="dedd-4cef-da40-bc02" name="Spanish Army Division" hidden="false">
+      <forceEntries>
+        <forceEntry id="9426-1038-a095-a517" name="Spanish Vanguard Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="8492-c403-510a-8b4d" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="3fe7-fbb8-f358-581b" name="Vanguard" hidden="false" targetId="98e9-5729-f2d9-1120" primary="false"/>
+            <categoryLink id="a227-9e95-034b-6a99" name="Foot Artillery" hidden="false" targetId="8208-4235-27c7-34cd" primary="false"/>
+            <categoryLink id="2a63-25be-68ef-ffb9" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="5a13-969d-8010-450e" name="Spanish Infantry Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="8f90-e68c-c91b-8882" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="ae9b-9b26-8d2a-a021" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+            <categoryLink id="cc77-8548-10b3-23a4" name="Foot Artillery" hidden="false" targetId="8208-4235-27c7-34cd" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="3f75-e445-5dcb-e7eb" name="Spanish Cavalry Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="1920-8b98-43b5-5570" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="1a32-c039-99c8-802e" name="Light Cavalry" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="false"/>
+            <categoryLink id="9e1a-b702-f93a-f956" name="Medium Cavalry" hidden="false" targetId="0967-e386-c7a6-693d" primary="false"/>
+            <categoryLink id="25d6-1a67-3544-c3ec" name="Heavy Cavalry" hidden="false" targetId="a716-952d-33f2-008f" primary="false"/>
+            <categoryLink id="af39-6af5-6771-ee8c" name="Horse Artillery" hidden="false" targetId="c8ef-ba28-3668-dfee" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="e207-53aa-92cf-2f1b" name="Spanish Guard Infantry Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="0ce0-a728-74b5-388d" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+      </forceEntries>
+      <categoryLinks>
+        <categoryLink id="1bb8-bb5b-15b2-262d" name="Divisional Leader" hidden="false" targetId="25f9-960e-16d9-0271" primary="false"/>
+        <categoryLink id="c3a6-7d27-ad29-0a3b" name="Configuration" hidden="false" targetId="a873-6e0d-1021-4c39" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="aab1-56f5-e0f1-a119" name="Brigade Commander" hidden="false" collective="false" import="true" targetId="df8a-eac6-8e8c-012b" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="675e-58e4-d138-70b6" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
+        <entryLink id="3b05-531e-817d-2a27" name="A Marshall&apos;s Baton in Every Backpack" hidden="false" collective="false" import="true" targetId="06c1-baf0-c4fc-0426" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="c0be-4b30-4809-cec9" name="Divisional Commander" hidden="false" collective="false" import="true" targetId="c185-173b-1288-7947" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="c23f-f56b-8c8a-71bb" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
+        <entryLink id="37c3-7586-5089-ff36" name="A Marshall&apos;s Baton in Every Backpack" hidden="false" collective="false" import="true" targetId="06c1-baf0-c4fc-0426" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="064c-a593-2c23-1049" name="Spanish Artillery" hidden="false" collective="false" import="true" targetId="ef84-7fb3-cb10-d4d4" type="selectionEntry"/>
+    <entryLink id="6a50-7ee6-87e3-7559" name="Spanish Grenadier Infantry" hidden="false" collective="false" import="true" targetId="5b21-9f70-1cf6-0316" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="5678-d554-1477-9273" name="Infantry +1 H2H" hidden="false" collective="false" import="true" targetId="191a-1f90-80ed-4384" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="9aef-9075-7e6f-3a42" name="Spanish Guard Heavy Cavalry" hidden="false" collective="false" import="true" targetId="5940-9a32-46c3-11f1" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="056f-2dc2-46ee-60ed" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="5a95-9e3f-5998-3227" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="ed86-5e75-7497-ce96" name="Spanish Guard Infantry" hidden="false" collective="false" import="true" targetId="1b8e-112f-4225-c9af" type="selectionEntry"/>
+    <entryLink id="786a-081e-1183-0281" name="Spanish Guard Light Cavalry" hidden="false" collective="false" import="true" targetId="edd4-0e21-682c-4092" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="8263-ce21-a541-8ada" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="5a95-9e3f-5998-3227" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="b19e-1f88-7e09-a3d9" name="Spanish Heavy Cavalry" hidden="false" collective="false" import="true" targetId="e55b-c056-bee1-69db" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="86f1-8bdc-d0f8-4845" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="5a95-9e3f-5998-3227" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="5115-f680-558d-00c9" name="Spanish Horse Artillery" hidden="false" collective="false" import="true" targetId="c5bc-af56-8a59-cc04" type="selectionEntry"/>
+    <entryLink id="d289-29aa-ced5-40a9" name="Spanish Lancer Cavalry" hidden="false" collective="false" import="true" targetId="e67f-c75a-7cba-7b62" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="e245-cfd5-df2e-5fe9" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="5a95-9e3f-5998-3227" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="89ca-b6b0-8c26-8c7c" name="Spanish Light Cavalry" hidden="false" collective="false" import="true" targetId="baa3-3d30-b711-fd4f" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="08d2-cb64-485f-b166" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="5a95-9e3f-5998-3227" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="c9b1-c950-fc87-fb44" name="Spanish Light Infantry" hidden="false" collective="false" import="true" targetId="a2c9-d4ce-1756-dc50" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="4f83-eba6-ab46-eb8e" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="6875-0f60-93d0-ce68" name="Spanish Light Infantry Half Battalion" hidden="false" collective="false" import="true" targetId="a7fc-cdbe-8611-be71" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="2445-7651-9f58-584d" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="a4b3-49a8-8821-9fae" name="Infantry +1 H2H" hidden="false" collective="false" import="true" targetId="191a-1f90-80ed-4384" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="5d61-8a5d-70cd-deba" name="Spanish Line Infantry" hidden="false" collective="false" import="true" targetId="53ca-f6cb-bb6f-6223" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="9e59-924c-6b0f-72f5" name="Infantry +1 H2H" hidden="false" collective="false" import="true" targetId="191a-1f90-80ed-4384" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="1aed-cf58-6877-fefe" name="Spanish Militia Infantry" hidden="false" collective="false" import="true" targetId="2d3e-42e3-c618-158e" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="f990-025f-0ca7-cd5b" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="c185-173b-1288-7947" name="Divisional Commander" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="c69d-7b89-1870-fcee" name="New CategoryLink" hidden="false" targetId="25f9-960e-16d9-0271" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="df8a-eac6-8e8c-012b" name="Brigade Commander" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="e6e4-7ff1-c737-1616" name="New CategoryLink" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7940-7fb2-990e-949d" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21df-5af0-9447-448e" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4858-dc75-3cbd-dc3a" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fef-bac1-2b6b-dad9" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1d63-fbcb-ac4b-2683" name="Infantry Upgrade to Veteran, Reliable, Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f9-f519-e9bd-7e27" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfb5-9d7c-4ff5-5530" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1e8-4c55-2652-1184" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6774-1e5b-8e50-7203" name="Infantry Upgrade to Tough" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee6-6bb8-beaa-0fd0" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ff93-49cc-f946-a0f5" name="Infantry downgrade to Morale 5" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70d5-1e36-9493-95bf" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56f8-f3e3-20e5-a709" name="Infantry remove Unreliable" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3396-2257-55c3-5e2c" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0cb1-f95a-1a80-f7a4" name="Infantry Remove Pas de Charge" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66de-b2d7-4e19-239e" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="044e-9de3-5e06-5a03" name="Infantry remove Wavering" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6993-a852-3401-eaff" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="06c1-baf0-c4fc-0426" name="A Marshall&apos;s Baton in Every Backpack" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d24-500c-93f0-8b51" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aed3-ad98-e57e-9ec2" name="Staff rating 8" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35e4-03e0-7937-567b" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3f48-59a0-1b6f-c897" name="Staff Rating 9" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7997-b287-5c57-3bce" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba02-168e-a994-0536" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f61-0b10-d864-1c05" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb5e-a1b9-ff37-562e" name="Artillery Upgrade Reliable, Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a04-7ca9-37a9-fe52" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5a95-9e3f-5998-3227" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fac-a76c-e839-8179" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3f1f-f021-23f2-84e2" name="Infantry Grenadier Upgrade to Veteran, Reliable, Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acc3-a60a-e116-f165" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a7fc-cdbe-8611-be71" name="Spanish Light Infantry Half Battalion" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="96fe-b9c3-f45a-4f73" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="17.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a2c9-d4ce-1756-dc50" name="Spanish Light Infantry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7a8b-2cf7-7837-d1a5" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2d3e-42e3-c618-158e" name="Spanish Militia Infantry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="71ed-cfee-13a4-9d36" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="27.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b21-9f70-1cf6-0316" name="Spanish Grenadier Infantry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="cc4e-4890-c2da-1b9f" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="32.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="53ca-f6cb-bb6f-6223" name="Spanish Line Infantry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="a5d8-6db3-bfb4-c367" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1b8e-112f-4225-c9af" name="Spanish Guard Infantry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="2d54-cc2b-4867-7655" name="New CategoryLink" hidden="false" targetId="98e9-5729-f2d9-1120" primary="true"/>
+        <categoryLink id="aa96-1d6d-2976-526d" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5940-9a32-46c3-11f1" name="Spanish Guard Heavy Cavalry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="fddc-aa01-f203-de98" name="New CategoryLink" hidden="false" targetId="a716-952d-33f2-008f" primary="true"/>
+        <categoryLink id="835c-c375-6ec7-4807" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="33.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e55b-c056-bee1-69db" name="Spanish Heavy Cavalry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="9bb0-053b-cf64-044c" name="New CategoryLink" hidden="false" targetId="a716-952d-33f2-008f" primary="true"/>
+        <categoryLink id="f0b1-d757-d1a4-ad1b" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="33.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e67f-c75a-7cba-7b62" name="Spanish Lancer Cavalry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="01b0-1bac-907e-6cfc" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="true"/>
+        <categoryLink id="82ce-7bf8-ef24-7ec8" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="33.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="baa3-3d30-b711-fd4f" name="Spanish Light Cavalry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="494d-d558-eede-d886" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="true"/>
+        <categoryLink id="3450-8a8b-12c0-dedb" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="edd4-0e21-682c-4092" name="Spanish Guard Light Cavalry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="25ea-a4fc-b397-e015" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="true"/>
+        <categoryLink id="afd7-d5e1-502f-f548" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="43.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ef84-7fb3-cb10-d4d4" name="Spanish Artillery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="5063-30c8-d6e9-1f6e" name="New CategoryLink" hidden="false" targetId="8208-4235-27c7-34cd" primary="true"/>
+        <categoryLink id="25c3-6bba-58b8-e222" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="27.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c5bc-af56-8a59-cc04" name="Spanish Horse Artillery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="769a-becc-7f11-f1a2" name="New CategoryLink" hidden="false" targetId="c8ef-ba28-3668-dfee" primary="true"/>
+        <categoryLink id="93ab-478a-31dc-a5df" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="19.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="191a-1f90-80ed-4384" name="Infantry +1 H2H" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="2.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
