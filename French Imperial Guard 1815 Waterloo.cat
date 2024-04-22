@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c731-d842-51bb-d148" name="French Imperial Guard 1815 Waterloo" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c731-d842-51bb-d148" name="French Imperial Guard 1815 Waterloo" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
-    <forceEntry id="dedd-4cef-da40-bc02" name="French Imperial Guard Division" hidden="false">
+    <forceEntry id="e323-06c2-5a65-0f85" name="French Imperial Guard Division" hidden="false">
       <forceEntries>
-        <forceEntry id="1eeb-327f-e27a-5118" name="French Heavy Cavalry Brigade" hidden="false">
+        <forceEntry id="161c-a9a4-652a-e213" name="French Heavy Cavalry Brigade" hidden="false">
           <categoryLinks>
             <categoryLink id="592e-2f41-92c3-953e" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
             <categoryLink id="cb82-f5fa-c648-610a" name="Heavy Cavalry" hidden="false" targetId="a716-952d-33f2-008f" primary="false"/>
             <categoryLink id="873f-149b-f980-4028" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
           </categoryLinks>
         </forceEntry>
-        <forceEntry id="c709-6715-e0f1-4144" name="French Light Cavalry Brigade" hidden="false">
+        <forceEntry id="9267-8fe9-a463-1069" name="French Light Cavalry Brigade" hidden="false">
           <categoryLinks>
             <categoryLink id="ab30-5f6c-828c-2a00" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
             <categoryLink id="a204-095d-b0c9-6e60" name="Light Cavalry" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="false"/>
@@ -18,7 +18,7 @@
             <categoryLink id="d2f3-49be-71e0-fca9" name="Medium Cavalry" hidden="false" targetId="0967-e386-c7a6-693d" primary="false"/>
           </categoryLinks>
         </forceEntry>
-        <forceEntry id="4a78-b547-e1c7-3151" name="Middle Guard Infantry Brigade" hidden="false">
+        <forceEntry id="e1a0-83f0-8ddc-ba8e" name="Middle Guard Infantry Brigade" hidden="false">
           <categoryLinks>
             <categoryLink id="8fe0-adaa-2101-c437" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
             <categoryLink id="638c-f42d-b754-a475" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
@@ -26,14 +26,14 @@
             <categoryLink id="5e55-dc65-0f37-5e82" name="Marines of the Guard" hidden="false" targetId="6fe4-88fd-17a2-afbc" primary="false"/>
           </categoryLinks>
         </forceEntry>
-        <forceEntry id="08ce-1205-c2bb-07ba" name="Old Guard Infantry Brigade" hidden="false">
+        <forceEntry id="f881-44cc-e68c-370d" name="Old Guard Infantry Brigade" hidden="false">
           <categoryLinks>
             <categoryLink id="ff87-d839-902b-5705" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
             <categoryLink id="0a3a-abaf-f5c8-5b9a" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
             <categoryLink id="191d-d9e4-bfd8-e2ce" name="Old Guard" hidden="false" targetId="013c-f2cc-fe37-d38b" primary="false"/>
           </categoryLinks>
         </forceEntry>
-        <forceEntry id="33d1-4c58-9148-102c" name="Young Guard Infantry Brigade" hidden="false">
+        <forceEntry id="618b-105f-e6b3-6178" name="Young Guard Infantry Brigade" hidden="false">
           <categoryLinks>
             <categoryLink id="43e5-184a-e381-e4f5" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
             <categoryLink id="9e04-657b-4c05-37d4" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
@@ -47,65 +47,102 @@
         <categoryLink id="912b-12ee-46a2-9094" name="Configuration" hidden="false" targetId="a873-6e0d-1021-4c39" primary="false"/>
       </categoryLinks>
     </forceEntry>
+    <forceEntry id="6247-17e1-c361-165c" name="French Heavy Cavalry Brigade" hidden="false">
+      <categoryLinks>
+        <categoryLink id="7e5b-478d-3ed2-f05d" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+        <categoryLink id="75e6-429a-cd8b-77c7" name="Heavy Cavalry" hidden="false" targetId="a716-952d-33f2-008f" primary="false"/>
+        <categoryLink id="6af4-26c0-992d-d1eb" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="bb18-668c-7dff-29dc" name="French Light Cavalry Brigade" hidden="false">
+      <categoryLinks>
+        <categoryLink id="2d0e-e21a-fdf6-f7bb" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+        <categoryLink id="8107-ba31-8192-2611" name="Light Cavalry" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="false"/>
+        <categoryLink id="7cf9-5a74-b19c-5cbd" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+        <categoryLink id="70b8-fa53-5b1c-bcbb" name="Medium Cavalry" hidden="false" targetId="0967-e386-c7a6-693d" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="4cd8-f59b-305d-adbf" name="Middle Guard Infantry Brigade" hidden="false">
+      <categoryLinks>
+        <categoryLink id="3c91-fd29-113e-c066" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+        <categoryLink id="0b98-22b5-0219-33d2" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+        <categoryLink id="dddf-1035-fe3f-268f" name="Middle Guard" hidden="false" targetId="38eb-c87f-555e-1ff1" primary="false"/>
+        <categoryLink id="1679-7fff-b8bc-8616" name="Marines of the Guard" hidden="false" targetId="6fe4-88fd-17a2-afbc" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="04af-f720-aec8-3951" name="Old Guard Infantry Brigade" hidden="false">
+      <categoryLinks>
+        <categoryLink id="a901-4b5c-aacb-f6a6" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+        <categoryLink id="cf9a-1a4a-afc3-87f2" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+        <categoryLink id="e0b7-c368-e2cb-a4b0" name="Old Guard" hidden="false" targetId="013c-f2cc-fe37-d38b" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="3a5f-f3b3-46c1-de6f" name="Young Guard Infantry Brigade" hidden="false">
+      <categoryLinks>
+        <categoryLink id="16ff-62f2-4ba3-9bf2" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+        <categoryLink id="f35d-117d-5381-ae70" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+        <categoryLink id="e8ed-6d26-5936-701e" name="Young Guard" hidden="false" targetId="946b-44ae-561d-e7a7" primary="false"/>
+        <categoryLink id="7153-1537-049c-7e33" name="Marines of the Guard" hidden="false" targetId="6fe4-88fd-17a2-afbc" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
   <entryLinks>
-    <entryLink id="aab1-56f5-e0f1-a119" name="Brigade Commander" hidden="false" collective="false" import="true" targetId="df8a-eac6-8e8c-012b" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="675e-58e4-d138-70b6" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
-        <entryLink id="1b50-fb78-1535-a1e6" name="Staff Rating 9" hidden="false" collective="false" import="true" targetId="3f48-59a0-1b6f-c897" type="selectionEntry"/>
-        <entryLink id="705d-0cb7-8a1b-46fb" name="A Marshall&apos;s Baton in Every Backpack" hidden="false" collective="false" import="true" targetId="06c1-baf0-c4fc-0426" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="c0be-4b30-4809-cec9" name="Divisional Commander" hidden="false" collective="false" import="true" targetId="c185-173b-1288-7947" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="c23f-f56b-8c8a-71bb" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
-        <entryLink id="6a13-8fe2-5d89-3904" name="Staff Rating 9" hidden="false" collective="false" import="true" targetId="3f48-59a0-1b6f-c897" type="selectionEntry"/>
-        <entryLink id="7510-2e2a-a34e-3bad" name="A Marshall&apos;s Baton in Every Backpack" hidden="false" collective="false" import="true" targetId="06c1-baf0-c4fc-0426" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="6631-793b-f781-1ffd" name="Old Guard Grenadiers &amp; Chasseurs" hidden="false" collective="false" import="true" targetId="a480-64af-3d72-2093" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="577c-3d39-fe13-7375" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="acf2-da2f-a25c-4807" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="2496-e46f-d995-5257" name="Middle Guard Grenadiers &amp; Chasseurs" hidden="false" collective="false" import="true" targetId="b6a4-3743-6907-a4bd" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="7330-8ec6-0fad-b130" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="acf2-da2f-a25c-4807" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
+    <entryLink id="aab1-56f5-e0f1-a119" name="Brigade Commander" hidden="false" collective="false" import="true" targetId="df8a-eac6-8e8c-012b" type="selectionEntry"/>
+    <entryLink id="c0be-4b30-4809-cec9" name="Divisional Commander" hidden="false" collective="false" import="true" targetId="c185-173b-1288-7947" type="selectionEntry"/>
+    <entryLink id="6631-793b-f781-1ffd" name="Old Guard Grenadiers &amp; Chasseurs" hidden="false" collective="false" import="true" targetId="a480-64af-3d72-2093" type="selectionEntry"/>
+    <entryLink id="2496-e46f-d995-5257" name="Middle Guard Grenadiers &amp; Chasseurs" hidden="false" collective="false" import="true" targetId="b6a4-3743-6907-a4bd" type="selectionEntry"/>
     <entryLink id="2edf-5684-8edd-6bf5" name="Young Guard Voltigeurs &amp; Tirailleurs" hidden="false" collective="false" import="true" targetId="4e37-bda0-10e7-b6f4" type="selectionEntry"/>
     <entryLink id="64f2-c5aa-ce2d-0da9" name="Marines of the Guard (Small)" hidden="false" collective="false" import="true" targetId="cf6c-7d55-7c1c-b7ef" type="selectionEntry"/>
     <entryLink id="d04b-786e-05d7-b5d3" name="Marines of the Guard (Tiny)" hidden="false" collective="false" import="true" targetId="09fc-13c2-7000-8b1b" type="selectionEntry"/>
-    <entryLink id="dfbe-64e8-8551-32ab" name="Grenadier Guards a Cheval" hidden="false" collective="false" import="true" targetId="3094-f3aa-c4e1-ea37" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="4c45-be97-c25c-e47c" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98b0-88d6-06a6-c54e" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="f1fa-f6c7-8e69-8558" name="Empress Dragoons" hidden="false" collective="false" import="true" targetId="b344-c738-c710-3423" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="d1a9-858d-9f99-3c7f" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98b0-88d6-06a6-c54e" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
+    <entryLink id="dfbe-64e8-8551-32ab" name="Grenadier Guards a Cheval" hidden="false" collective="false" import="true" targetId="3094-f3aa-c4e1-ea37" type="selectionEntry"/>
+    <entryLink id="f1fa-f6c7-8e69-8558" name="Empress Dragoons" hidden="false" collective="false" import="true" targetId="b344-c738-c710-3423" type="selectionEntry"/>
     <entryLink id="18ac-2c2b-2cd5-0fdb" name="Gendarmes d&apos;Elite (Tiny)" hidden="false" collective="false" import="true" targetId="ef4b-5202-51ba-dea6" type="selectionEntry"/>
-    <entryLink id="74a4-a554-0617-3ccc" name="Chasseurs a Cheval" hidden="false" collective="false" import="true" targetId="0a09-260e-3319-dd34" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="ea4c-c826-ff3e-1ecb" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98b0-88d6-06a6-c54e" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="3e3c-0005-3984-02fb" name="Guard Lancer" hidden="false" collective="false" import="true" targetId="be16-76b3-fc3b-7ca7" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="5736-fade-ffb1-1c61" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98b0-88d6-06a6-c54e" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
+    <entryLink id="74a4-a554-0617-3ccc" name="Chasseurs a Cheval" hidden="false" collective="false" import="true" targetId="0a09-260e-3319-dd34" type="selectionEntry"/>
+    <entryLink id="3e3c-0005-3984-02fb" name="Guard Lancer" hidden="false" collective="false" import="true" targetId="be16-76b3-fc3b-7ca7" type="selectionEntry"/>
     <entryLink id="36a6-8bf8-9169-71ed" name="Guard Horse Artillery" hidden="false" collective="false" import="true" targetId="1c19-1cdb-3269-f7fa" type="selectionEntry"/>
     <entryLink id="db27-ff80-5771-ca20" name="Guard Heavy Artillery" hidden="false" collective="false" import="true" targetId="29d4-2659-9cef-3660" type="selectionEntry"/>
     <entryLink id="e819-7bf3-59eb-0d1e" name="Guards Foot/Marine Artillery" hidden="false" collective="false" import="true" targetId="4e01-f138-03b5-383a" type="selectionEntry"/>
+    <entryLink id="c1e6-4bdf-fd1f-6bc9" name="A Marshal’s Baton In Every Knapsack" hidden="false" collective="false" import="true" targetId="0fa7-d828-c0fb-e06a" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1f2-14c6-4bc0-50f6" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6228-ea5a-a221-2dd0" type="min"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="efe1-f3da-2283-68c5" name="Cavalry Column of Attack" hidden="false" collective="false" import="true" targetId="2523-fc4a-04fc-aab9" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33f0-ef90-9c6b-246a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c289-2f17-129c-ded4" type="min"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="fd9f-19d6-467f-4849" name="Combined Grenadiers" hidden="false" collective="false" import="true" targetId="a268-b61e-bbc4-dc75" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1322-3844-3e9e-d215" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74d0-fcf4-8e4d-0e23" type="min"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="e39a-6f8a-ca4f-ceea" name="Combined Voltigeurs" hidden="false" collective="false" import="true" targetId="aaf8-eeea-38df-ee4c" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="325e-780e-0b8a-ff69" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4213-9d00-1686-6b0a" type="min"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="8226-dd61-f751-21a7" name="Pas de Charge" hidden="false" collective="false" import="true" targetId="a807-762e-5faf-1ecf" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3af-a52d-b3c1-aa09" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c679-4957-3d75-b2c7" type="min"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="c185-173b-1288-7947" name="Divisional Commander" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="c69d-7b89-1870-fcee" name="New CategoryLink" hidden="false" targetId="25f9-960e-16d9-0271" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="4d5e-dab9-0215-c192" name="A Marshall&apos;s Baton in Every Backpack" hidden="false" collective="false" import="true" targetId="06c1-baf0-c4fc-0426" type="selectionEntry"/>
+        <entryLink id="0f1e-fef3-cf55-3024" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
+        <entryLink id="44f3-52e6-495d-1ffa" name="Staff Rating 9" hidden="false" collective="false" import="true" targetId="3f48-59a0-1b6f-c897" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
       </costs>
@@ -130,6 +167,10 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fef-bac1-2b6b-dad9" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="4a3a-ba48-3233-d77e" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+        <infoLink id="1ca9-1881-9d8b-cb23" name="+1 Hand to Hand" hidden="false" targetId="d537-1dc9-c8e4-d268" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6.0"/>
       </costs>
@@ -138,6 +179,10 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f9-f519-e9bd-7e27" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="ed3b-332f-4afd-a9f5" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+        <infoLink id="94cc-e79f-77f1-b495" name="Elite 4+" hidden="false" targetId="9887-eb0e-61fb-4e09" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
       </costs>
@@ -146,6 +191,10 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1e8-4c55-2652-1184" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="f09d-7de6-5db9-e00f" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+        <infoLink id="f68f-fe6f-1883-0785" name="Elite 5+" hidden="false" targetId="611e-9f60-868f-712c" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6.0"/>
       </costs>
@@ -154,6 +203,9 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee6-6bb8-beaa-0fd0" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="4d25-b35d-0dc0-f35e" name="Tough Fighters" hidden="false" targetId="00d2-53e5-b80e-4aff" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="1.0"/>
       </costs>
@@ -170,6 +222,9 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3396-2257-55c3-5e2c" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="8aee-40b2-4e73-40f8" name="Unreliable" hidden="false" targetId="a7a4-0a50-ac09-4117" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-3.0"/>
       </costs>
@@ -186,6 +241,9 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6993-a852-3401-eaff" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="21cf-325c-f2ae-0beb" name="Wavering" hidden="false" targetId="9743-29f5-f1f0-dac2" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-6.0"/>
       </costs>
@@ -194,6 +252,9 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d24-500c-93f0-8b51" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="c865-e15f-f5ae-fe1f" name="A Marshal’s Baton In Every Knapsack" hidden="false" targetId="5fa8-bdbb-2495-0662" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="10.0"/>
       </costs>
@@ -218,6 +279,10 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f61-0b10-d864-1c05" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="ddaa-6c74-f0db-973f" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+        <infoLink id="8020-2bf8-aa32-584f" name="Elite 5+" hidden="false" targetId="611e-9f60-868f-712c" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
       </costs>
@@ -226,29 +291,92 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a04-7ca9-37a9-fe52" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="8ddc-fa2e-fa3b-4aaf" name="Elite 4+" hidden="false" targetId="9887-eb0e-61fb-4e09" type="profile"/>
+        <infoLink id="48d1-2e30-bcea-d0cb" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a480-64af-3d72-2093" name="Old Guard Grenadiers &amp; Chasseurs" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5bc6-059d-7bec-3d62" name="Old Guard Grenadiers &amp; Chasseurs" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore
+Musket�</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">8</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">4</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">3</characteristic>
+            <characteristic name="Stamina" typeId="Special">2</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Elite 3+, Reliable, Tough Fighters</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9ba8-eef1-1a50-b6f5" name="Reliable" hidden="false" targetId="6ded-c5af-a2ec-2b47" type="profile"/>
+        <infoLink id="21df-e0fa-a9d8-17d3" name="Tough Fighters" hidden="false" targetId="00d2-53e5-b80e-4aff" type="profile"/>
+        <infoLink id="ff43-c16b-e229-08f7" name="Elite 3+" hidden="false" targetId="d3cb-1dce-6d08-0f58" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="941e-361f-1844-8f93" name="New CategoryLink" hidden="false" targetId="013c-f2cc-fe37-d38b" primary="true"/>
         <categoryLink id="4b3f-bcf4-ded3-f4e0" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="785c-ee70-d0e1-592d" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="acf2-da2f-a25c-4807" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="61.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b6a4-3743-6907-a4bd" name="Middle Guard Grenadiers &amp; Chasseurs" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7672-cbd1-8777-9e26" name="Middle Guard Grenadiers &amp; Chasseurs" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Musket</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">7</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">4</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">3</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Elite 4+, Reliable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="31a9-6b00-b0e6-9b51" name="Elite 4+" hidden="false" targetId="9887-eb0e-61fb-4e09" type="profile"/>
+        <infoLink id="8c2c-82fd-43b5-6144" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="884e-c3f1-8e49-349c" name="New CategoryLink" hidden="false" targetId="38eb-c87f-555e-1ff1" primary="true"/>
         <categoryLink id="1a96-918a-2db8-3ef5" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="0330-da90-a8c9-903e" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="acf2-da2f-a25c-4807" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="53.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4e37-bda0-10e7-b6f4" name="Young Guard Voltigeurs &amp; Tirailleurs" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="05f9-2ffa-494e-0eb4" name="Young Guard Voltigeurs &amp; Tirailleurs" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Musket</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">6</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">3</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Elite 5+, Pas de Charge, Skirmish</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e17b-72d9-6556-33d6" name="Pas de Charge" hidden="false" targetId="3338-b2b5-4f50-45e0" type="profile"/>
+        <infoLink id="dfe4-6c1d-5838-04dd" name="Elite 5+" hidden="false" targetId="611e-9f60-868f-712c" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="0009-6944-02f9-50fb" name="New CategoryLink" hidden="false" targetId="946b-44ae-561d-e7a7" primary="true"/>
         <categoryLink id="a55d-5eec-abde-5a2d" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
@@ -258,6 +386,23 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="cf6c-7d55-7c1c-b7ef" name="Marines of the Guard (Small)" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6ac5-8b86-cf08-785c" name="Marines of the Guard (Small)" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Musket</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">5</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">2</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">3</characteristic>
+            <characteristic name="Stamina" typeId="Special">2</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Elite 4+, Reliable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7943-75fa-ae32-c677" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+        <infoLink id="aca6-47d0-7700-43db" name="Elite 4+" hidden="false" targetId="9887-eb0e-61fb-4e09" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="220e-d4cd-f916-f8a6" name="New CategoryLink" hidden="false" targetId="6fe4-88fd-17a2-afbc" primary="true"/>
         <categoryLink id="a3bf-b59f-dd2b-3176" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
@@ -267,6 +412,23 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="09fc-13c2-7000-8b1b" name="Marines of the Guard (Tiny)" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9208-edf2-85b5-45d3" name="Marines of the Guard (Tiny)" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Musket</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">3</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">1</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">3</characteristic>
+            <characteristic name="Stamina" typeId="Special">1</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Elite 4+, Reliable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9926-dc25-4b02-e7f1" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+        <infoLink id="d1f4-375a-9d3d-2fcf" name="Elite 4+" hidden="false" targetId="9887-eb0e-61fb-4e09" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="494e-1aaf-7bc6-269f" name="New CategoryLink" hidden="false" targetId="6fe4-88fd-17a2-afbc" primary="true"/>
         <categoryLink id="eabc-df70-f01f-5f9d" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
@@ -276,14 +438,51 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3094-f3aa-c4e1-ea37" name="Grenadier Guards a Cheval" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="fa71-74a2-22a1-56eb" name="Grenadier Guards a Cheval" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Sabre</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">9</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">0</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">3</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Heavy Cavalry D3, Reliable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1b06-7f53-e79c-139a" name="Heavy Cavalry D3" hidden="false" targetId="ee19-3523-e770-eebc" type="profile"/>
+        <infoLink id="b892-7193-95f8-4cf9" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="9a8d-32a7-c940-e443" name="New CategoryLink" hidden="false" targetId="a716-952d-33f2-008f" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="b98c-1075-3f6c-7d14" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98b0-88d6-06a6-c54e" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="58.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ef4b-5202-51ba-dea6" name="Gendarmes d&apos;Elite (Tiny)" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5cd1-85fd-bc48-29af" name="Gendarmes d&apos;Elite (Tiny)" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Sabre</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">5</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">0</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">3</characteristic>
+            <characteristic name="Stamina" typeId="Special">1</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Heavy Cavalry D3, Reliable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4bd2-1f0f-21e3-6f33" name="Heavy Cavalry D3" hidden="false" targetId="ee19-3523-e770-eebc" type="profile"/>
+        <infoLink id="9089-d77f-a432-2c06" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="7bf2-a608-affe-3ae0" name="New CategoryLink" hidden="false" targetId="a716-952d-33f2-008f" primary="true"/>
       </categoryLinks>
@@ -292,30 +491,108 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b344-c738-c710-3423" name="Empress Dragoons" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2aad-1db1-856c-0985" name="Empress Dragoons" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Sabre</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">9</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">0</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">3</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Heavy Cavalry D3, Reliable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b0f6-cf31-0c78-38e8" name="Heavy Cavalry D3" hidden="false" targetId="ee19-3523-e770-eebc" type="profile"/>
+        <infoLink id="6b3f-4c14-c98e-9e0f" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="09e8-be41-1271-28f3" name="New CategoryLink" hidden="false" targetId="a716-952d-33f2-008f" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="c4d5-af48-8f03-05c3" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98b0-88d6-06a6-c54e" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="58.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="be16-76b3-fc3b-7ca7" name="Guard Lancer" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="94e0-cdc3-0ae1-1cbe" name="Guard Lancer" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Sabre</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">8</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">0</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">3</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Lancer, Marauder, Reliable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d3c8-4946-0dbe-3fe0" name="Lancers" hidden="false" targetId="7df3-6c02-69de-bf6b" type="profile"/>
+        <infoLink id="11dc-8e2d-7241-e81a" name="Marauders" hidden="false" targetId="529d-b833-0cf3-9ef8" type="profile"/>
+        <infoLink id="511e-1e48-e92c-5225" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="db88-2301-3b50-d55c" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="11db-a3d5-16e1-54c4" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98b0-88d6-06a6-c54e" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="58.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0a09-260e-3319-dd34" name="Chasseurs a Cheval" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f008-0c90-2cd3-ff5e" name="Chasseurs a Cheval" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Sabre</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">7</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">0</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">3</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Marauder, Reliable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="abcb-bf6b-81dd-94dc" name="Marauders" hidden="false" targetId="529d-b833-0cf3-9ef8" type="profile"/>
+        <infoLink id="a4dd-603c-a50e-3f5c" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="ab02-f418-710f-b395" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="3ba7-2ac4-6e09-636a" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98b0-88d6-06a6-c54e" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="51.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="29d4-2659-9cef-3660" name="Guard Heavy Artillery" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3ce4-4578-9ea3-1511" name="Guard Heavy Artillery" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Artillery</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Siege Artillery</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">1</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">3-2-1</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">2</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Elite 4+, Reliable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8c4f-d34e-e947-1416" name="Elite 4+" hidden="false" targetId="9887-eb0e-61fb-4e09" type="profile"/>
+        <infoLink id="3b6f-2981-f7f3-be6b" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="b130-ee77-a5c1-7274" name="New CategoryLink" hidden="false" targetId="61c1-c7f2-1762-2913" primary="true"/>
       </categoryLinks>
@@ -324,6 +601,23 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4e01-f138-03b5-383a" name="Guards Foot/Marine Artillery" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f232-8203-d1cb-ffe7" name="Guards Foot/Marine Artillery" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Artillery</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Artillery</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">1</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">3-2-1</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">1</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Elite 4+, Reliable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a817-d4b2-de46-538a" name="Elite 4+" hidden="false" targetId="9887-eb0e-61fb-4e09" type="profile"/>
+        <infoLink id="5bc7-67df-2779-4a7a" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="d436-d708-5bd3-c2b1" name="New CategoryLink" hidden="false" targetId="61c1-c7f2-1762-2913" primary="true"/>
       </categoryLinks>
@@ -332,6 +626,24 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1c19-1cdb-3269-f7fa" name="Guard Horse Artillery" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="eef3-d724-2452-11dd" name="Guard Horse Artillery" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Artillery</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Light Artillery</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">1</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">3-2-1</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">2</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Elite 4+, Reliable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f11d-1cb0-65df-f1aa" name="Marauders" hidden="false" targetId="529d-b833-0cf3-9ef8" type="profile"/>
+        <infoLink id="cc95-a388-3e34-6915" name="Elite 4+" hidden="false" targetId="9887-eb0e-61fb-4e09" type="profile"/>
+        <infoLink id="575c-aebe-49c3-7cd8" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="bcf0-ad83-1ad7-4fba" name="New CategoryLink" hidden="false" targetId="61c1-c7f2-1762-2913" primary="true"/>
       </categoryLinks>
@@ -343,6 +655,9 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e421-7dbc-2efc-5396" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="71ec-4d0b-5ff3-cc85" name="Valiant" hidden="false" targetId="8664-2a43-ffb3-6de2" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="3.0"/>
       </costs>

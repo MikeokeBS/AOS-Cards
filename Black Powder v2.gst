@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0ccf-a014-6165-2fa1" name="Black Powder v2" revision="10" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0ccf-a014-6165-2fa1" name="Black Powder v2" revision="11" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="13f0-c899-d38c-59a8" name="Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -112,6 +112,9 @@
       <infoLinks>
         <infoLink id="30ca-06c9-e4ca-01c7" name="A Marshal’s Baton In Every Knapsack" hidden="false" targetId="5fa8-bdbb-2495-0662" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5128-d313-8bb4-8155" name="New CategoryLink" hidden="false" targetId="a873-6e0d-1021-4c39" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
       </costs>
@@ -330,9 +333,9 @@ Attack would be Light Cavalry +1, Medium would be Heavy Cavalry D1+1 and Heavy C
 • The column gains no Morale bonus.</characteristic>
       </characteristics>
     </profile>
-    <profile id="99ed-d5b6-89f9-4cd1" name="Elite 4+" hidden="false" typeId="1317-9611-8530-6cc3" typeName="Ability">
+    <profile id="d3cb-1dce-6d08-0f58" name="Elite 3+" hidden="false" typeId="1317-9611-8530-6cc3" typeName="Ability">
       <characteristics>
-        <characteristic name="Description" typeId="e864-96c7-8964-a7c9">Overcome disorder at start of Command on roll of 4+.</characteristic>
+        <characteristic name="Description" typeId="e864-96c7-8964-a7c9">Overcome disorder at start of Command on roll of 3+.</characteristic>
       </characteristics>
     </profile>
     <profile id="611e-9f60-868f-712c" name="Elite 5+" hidden="false" typeId="1317-9611-8530-6cc3" typeName="Ability">
@@ -637,6 +640,11 @@ to represent the burning desire to wreak revenge on the hated French.</character
       <characteristics>
         <characteristic name="Description" typeId="e864-96c7-8964-a7c9">the Assault Column rules are used to represent the Angriffskolonne, whilst the Column of Companies can be used
 for the Prussian Zug column.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9887-eb0e-61fb-4e09" name="Elite 4+" hidden="false" typeId="1317-9611-8530-6cc3" typeName="Ability">
+      <characteristics>
+        <characteristic name="Description" typeId="e864-96c7-8964-a7c9">Overcome disorder at start of Command on roll of 4+.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8dd8-fc93-1443-a00b" name="French Army Corps 1815 Waterloo" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8dd8-fc93-1443-a00b" name="French Army Corps 1815 Waterloo" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="c2e8-4a02-abe1-ba4f" name="Ability"/>
   </profileTypes>
@@ -96,12 +96,6 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a02-9f27-638a-1322" type="max"/>
       </constraints>
     </entryLink>
-    <entryLink id="6c55-47e1-e2b2-a712" name="A Marshall&apos;s Baton in Every Backpack" hidden="false" collective="false" import="true" targetId="06c1-baf0-c4fc-0426" type="selectionEntry">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5f2-5015-9dc8-9d60" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1866-8e1d-d45c-2d19" type="max"/>
-      </constraints>
-    </entryLink>
     <entryLink id="936b-33b0-95fc-13f3" name="Pas de Charge" hidden="false" collective="false" import="true" targetId="a807-762e-5faf-1ecf" type="selectionEntry"/>
     <entryLink id="0ff5-468c-e0a2-1ea3" name="Combined Grenadiers" hidden="false" collective="false" import="true" targetId="a268-b61e-bbc4-dc75" type="selectionEntry">
       <constraints>
@@ -113,6 +107,12 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0bb-d6e7-1aaf-6eb7" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa07-6083-00ce-e035" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="49f1-ddaf-8317-9c59" name="A Marshal’s Baton In Every Knapsack" hidden="false" collective="false" import="true" targetId="0fa7-d828-c0fb-e06a" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ea7-923a-0ef3-2eb5" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbe4-6bba-2873-c615" type="max"/>
       </constraints>
     </entryLink>
   </entryLinks>
@@ -587,7 +587,7 @@ Marauder</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f9-f519-e9bd-7e27" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="74a1-fcff-befa-cd69" name="Elite 4+" hidden="false" targetId="99ed-d5b6-89f9-4cd1" type="profile"/>
+        <infoLink id="74a1-fcff-befa-cd69" name="Elite 4+" hidden="false" targetId="9887-eb0e-61fb-4e09" type="profile"/>
         <infoLink id="4442-5fa6-59aa-c99a" name="Reliable" hidden="false" targetId="6ded-c5af-a2ec-2b47" type="profile"/>
       </infoLinks>
       <costs>
@@ -700,7 +700,7 @@ Marauder</characteristic>
       </constraints>
       <infoLinks>
         <infoLink id="6821-2646-be55-0a4a" name="Reliable" hidden="false" targetId="6ded-c5af-a2ec-2b47" type="profile"/>
-        <infoLink id="984d-b271-1589-4792" name="Elite 4+" hidden="false" targetId="99ed-d5b6-89f9-4cd1" type="profile"/>
+        <infoLink id="984d-b271-1589-4792" name="Elite 4+" hidden="false" targetId="9887-eb0e-61fb-4e09" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="10.0"/>
