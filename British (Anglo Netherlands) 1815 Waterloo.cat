@@ -1,7 +1,77 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="406c-6d73-2dac-5757" name="British (Anglo Netherlands) 1815 Waterloo" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6abe-88ec-1987-ad2a" name="British (Anglo Netherlands) 1815 Waterloo" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <forceEntries>
     <forceEntry id="378a-1627-1d06-29cf" name="British Division" hidden="false">
+      <forceEntries>
+        <forceEntry id="f5cf-2d83-7242-d6af" name="Artillery Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="5d6f-e8d5-58b9-4493" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="7836-b8a7-50fc-6357" name="Royal Horse Artillery" hidden="false" targetId="4562-b4a4-ff4f-0eda" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="84f4-f807-4b3b-d1e7" name="British Infantry Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="c2bf-4483-426e-bd3d" name="British Infantry" hidden="false" targetId="19c5-da43-f163-307c" primary="false"/>
+            <categoryLink id="35c9-9c52-f0db-6dae" name="British Highlander" hidden="false" targetId="0756-0ac7-218e-1400" primary="false"/>
+            <categoryLink id="694c-a5d2-1a66-fd42" name="British Rifles" hidden="false" targetId="d106-7552-718b-67eb" primary="false"/>
+            <categoryLink id="0587-bf1b-20d6-4b0c" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="fde1-d210-c2f5-2753" name="Royal Foot Artillery" hidden="false" targetId="e255-ea1f-5617-9d40" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="6a7d-ab44-b139-1b11" name="British Light Cavalry Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="17a5-2283-199d-c76f" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="fe8a-57c8-e4d4-d76a" name="British Light Cavalry" hidden="false" targetId="1fd1-6c36-f8fb-c77d" primary="false"/>
+            <categoryLink id="116d-0f7e-ba39-a9fb" name="Royal Horse Artillery" hidden="false" targetId="4562-b4a4-ff4f-0eda" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="6aaf-60e4-bc4c-c9cd" name="Guards Infantry Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="aafe-b89a-b44d-6dd5" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="4c42-1536-25ae-45bc" name="Foot Guards Infantry" hidden="false" targetId="c923-7b50-ce04-2a93" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="ab63-6898-9303-1530" name="Hanovarian Cavalry Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="0588-1ee4-881e-488b" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="96c1-2b33-de61-5e16" name="Hanovarian Cavalry" hidden="false" targetId="44de-4508-f9a6-a0e4" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="a61a-7e93-5861-7a47" name="Hanovarian Infantry Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="3e5f-f03e-88e0-1635" name="Hanoverian Infantry" hidden="false" targetId="1e11-9150-ce31-ad1c" primary="false"/>
+            <categoryLink id="9d1a-4eae-3952-4264" name="Hanovarian Foot Artillery" hidden="false" targetId="9399-9446-ec85-f908" primary="false"/>
+            <categoryLink id="ff90-fcf0-5854-bdef" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="3cb4-c464-71a7-ae9b" name="Heavy Cavalry Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="21e1-e535-b1ca-0290" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="7929-89f6-ce41-0179" name="Heavy Cavalry" hidden="false" targetId="a716-952d-33f2-008f" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="65e2-7873-c04f-8676" name="Household Bridage" hidden="false">
+          <categoryLinks>
+            <categoryLink id="139f-486b-92f6-b8ef" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="912f-3153-385d-8386" name="Household Cavalry" hidden="false" targetId="3324-89fa-41d5-755a" primary="false"/>
+            <categoryLink id="a489-ad09-b9a2-5c81" name="Royal Horse Artillery" hidden="false" targetId="4562-b4a4-ff4f-0eda" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="f2a6-846d-6bea-6e2e" name="KGL Infantry Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="e429-0b06-9977-d64f" name="KGL Infantry" hidden="false" targetId="18cd-31e4-57e1-ad57" primary="false"/>
+            <categoryLink id="f26d-bdeb-21f4-f16f" name="KGL Foot Artillery" hidden="false" targetId="2848-259a-62b5-f915" primary="false"/>
+            <categoryLink id="d129-1230-7354-0904" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="20bf-0811-639a-e99f" name="KGL Light Cavalry Brigade" hidden="false">
+          <categoryLinks>
+            <categoryLink id="8bf6-8dd5-f6fe-4857" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+            <categoryLink id="9b5f-0883-eb66-774a" name="KGL Horse Artillery" hidden="false" targetId="076e-a0d2-bed7-772e" primary="false"/>
+            <categoryLink id="2e63-b348-6b00-84c7" name="KGL Light Cavalry" hidden="false" targetId="d729-6543-8e6d-6c12" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+      </forceEntries>
       <categoryLinks>
         <categoryLink id="0079-8d9b-1c6e-44e8" name="Divisional Leader" hidden="false" targetId="25f9-960e-16d9-0271" primary="false"/>
         <categoryLink id="51f6-22ed-5e45-948d" name="Configuration" hidden="false" targetId="a873-6e0d-1021-4c39" primary="false"/>
@@ -106,56 +176,56 @@
     <entryLink id="2c27-3f7d-1c65-aea2" name="British Dragoons" hidden="false" collective="false" import="true" targetId="c46b-c7d4-51d8-4757" type="selectionEntry"/>
     <entryLink id="cb27-88f9-244b-7854" name="Detached Light Companies" hidden="false" collective="false" import="true" targetId="b499-c03d-5b25-41bc" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff02-0e1c-3110-c5df" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6548-061c-34c3-02de" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff02-0e1c-3110-c5df" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6548-061c-34c3-02de" type="max"/>
       </constraints>
     </entryLink>
     <entryLink id="ddb7-d376-ba6a-8a10" name="Four-Deep line" hidden="false" collective="false" import="true" targetId="c809-5fb8-8203-523d" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3480-b1de-5ea0-6b51" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f704-90a3-c070-0a70" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3480-b1de-5ea0-6b51" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f704-90a3-c070-0a70" type="max"/>
       </constraints>
     </entryLink>
     <entryLink id="bddd-889f-521b-ad29" name="Cannot Form Attack Column" hidden="false" collective="false" import="true" targetId="c026-908d-3a0f-ee91" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2a7-67fb-6572-1f1e" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="993a-eb92-9aba-b0f2" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2a7-67fb-6572-1f1e" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="993a-eb92-9aba-b0f2" type="max"/>
       </constraints>
     </entryLink>
     <entryLink id="d7a4-c126-c1c3-608c" name="Rifle Mixed formation" hidden="false" collective="false" import="true" targetId="aee8-0313-a2a1-bb1c" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f118-fc2a-2447-8cda" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a11-9238-43e4-cd5c" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f118-fc2a-2447-8cda" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a11-9238-43e4-cd5c" type="max"/>
       </constraints>
     </entryLink>
     <entryLink id="f64d-362f-3d0c-afc3" name="Lie Down" hidden="false" collective="false" import="true" targetId="041f-c8c1-f04f-a056" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5deb-ac71-b219-0f7e" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2a6-fe1b-5026-3daa" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5deb-ac71-b219-0f7e" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2a6-fe1b-5026-3daa" type="max"/>
       </constraints>
     </entryLink>
     <entryLink id="4ef4-b308-f1fe-d549" name="A Column of Companies" hidden="false" collective="false" import="true" targetId="f764-9df1-0409-79ab" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f278-5ea8-63c4-ca97" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a97-a9f9-304b-d4cf" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f278-5ea8-63c4-ca97" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a97-a9f9-304b-d4cf" type="max"/>
       </constraints>
     </entryLink>
     <entryLink id="4bdf-d524-0ed6-e681" name="Ferocious Charge" hidden="false" collective="false" import="true" targetId="89b0-835d-a7bb-e9e3" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3d0-8594-3d53-8dc2" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4250-3e32-f483-3710" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3d0-8594-3d53-8dc2" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4250-3e32-f483-3710" type="max"/>
       </constraints>
     </entryLink>
     <entryLink id="7838-da67-f78a-29ec" name="Gallop at Anything" hidden="false" collective="false" import="true" targetId="7ccc-efc8-1e85-41d7" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73ae-5719-889e-50fd" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0775-9c40-1f86-1ebd" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73ae-5719-889e-50fd" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0775-9c40-1f86-1ebd" type="max"/>
       </constraints>
     </entryLink>
     <entryLink id="12c4-5ea3-844b-4fe5" name="Deep Formation" hidden="false" collective="false" import="true" targetId="ac91-9c7e-29c6-bb1e" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a47-4af2-56d5-81b6" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd6c-8cc0-3a2f-b4da" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a47-4af2-56d5-81b6" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd6c-8cc0-3a2f-b4da" type="max"/>
       </constraints>
     </entryLink>
   </entryLinks>
@@ -169,7 +239,7 @@
         <entryLink id="889c-7d0d-6f7b-fdd7" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="df8a-eac6-8e8c-012b" name="Brigade Commander" hidden="false" collective="false" import="true" type="model">
@@ -181,138 +251,138 @@
         <entryLink id="2227-b8e9-1881-051e" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7940-7fb2-990e-949d" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21df-5af0-9447-448e" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21df-5af0-9447-448e" type="max"/>
       </constraints>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-8.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-8"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4858-dc75-3cbd-dc3a" name="Cavalry Upgrade to Reliable and +1 H2H " hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4858-dc75-3cbd-dc3a" name="Cavalry Upgrade to Reliable and +1 H2H" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fef-bac1-2b6b-dad9" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fef-bac1-2b6b-dad9" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="db62-0c90-cc26-e131" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
         <infoLink id="f45f-8e3d-942c-3056" name="+1 Hand to Hand" hidden="false" targetId="d537-1dc9-c8e4-d268" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1d63-fbcb-ac4b-2683" name="Infantry Upgrade to Reliable, Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f9-f519-e9bd-7e27" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f9-f519-e9bd-7e27" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="78a0-9028-af30-4842" name="Elite 4+" hidden="false" targetId="9887-eb0e-61fb-4e09" type="profile"/>
         <infoLink id="6867-142a-9c3e-e461" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="10.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bfb5-9d7c-4ff5-5530" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1e8-4c55-2652-1184" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1e8-4c55-2652-1184" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="e054-5e5a-9477-fef2" name="Elite 5+" hidden="false" targetId="611e-9f60-868f-712c" type="profile"/>
         <infoLink id="468b-f1ef-c126-77c7" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6774-1e5b-8e50-7203" name="Infantry Upgrade to Tough" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee6-6bb8-beaa-0fd0" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee6-6bb8-beaa-0fd0" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="2f70-e017-cf6b-4af1" name="Tough Fighters" hidden="false" targetId="00d2-53e5-b80e-4aff" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="1.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ff93-49cc-f946-a0f5" name="Infantry downgrade to Morale 5" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70d5-1e36-9493-95bf" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70d5-1e36-9493-95bf" type="max"/>
       </constraints>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-4.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="56f8-f3e3-20e5-a709" name="Infantry downgrade to Unreliable" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3396-2257-55c3-5e2c" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3396-2257-55c3-5e2c" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="3730-4259-1498-d63f" name="Unreliable" hidden="false" targetId="a7a4-0a50-ac09-4117" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-3.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-3"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0cb1-f95a-1a80-f7a4" name="Infantry Remove Pas de Charge" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66de-b2d7-4e19-239e" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66de-b2d7-4e19-239e" type="max"/>
       </constraints>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-2.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-2"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="044e-9de3-5e06-5a03" name="Infantry downgrade to Wavering" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6993-a852-3401-eaff" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6993-a852-3401-eaff" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="8d9f-201f-ad88-137c" name="Wavering" hidden="false" targetId="9743-29f5-f1f0-dac2" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-6.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="-6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aed3-ad98-e57e-9ec2" name="Staff rating 8" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35e4-03e0-7937-567b" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35e4-03e0-7937-567b" type="max"/>
       </constraints>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="25.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="25"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3f48-59a0-1b6f-c897" name="Staff Rating 9" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7997-b287-5c57-3bce" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7997-b287-5c57-3bce" type="max"/>
       </constraints>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="50.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="50"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba02-168e-a994-0536" name="Artillery Upgrade Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f61-0b10-d864-1c05" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f61-0b10-d864-1c05" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="e199-8c91-75ad-5bf2" name="Elite 5+" hidden="false" targetId="611e-9f60-868f-712c" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="4.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cb5e-a1b9-ff37-562e" name="Artillery Upgrade Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a04-7ca9-37a9-fe52" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a04-7ca9-37a9-fe52" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="f543-4455-f3fd-04df" name="Elite 4+" hidden="false" targetId="9887-eb0e-61fb-4e09" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="13ef-cfdf-6ba0-9b7d" name="British Line Infantry" hidden="false" collective="false" import="true" type="unit">
@@ -344,7 +414,7 @@
         <entryLink id="d9e6-137a-2fa2-d880" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="e673-c635-cdca-face" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="39.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="39"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7f8d-d0bd-c0c3-3032" name="KGL Line Infantry" hidden="false" collective="false" import="true" type="unit">
@@ -375,7 +445,7 @@
         <entryLink id="6816-eae1-c3b8-7c1e" name="Infantry Upgrade to Veteran, Reliable, Elite 4+" hidden="false" collective="false" import="true" targetId="0bf1-d5cf-3d02-a648" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="40.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="40"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8bbd-00c1-fb45-5ad6" name="British Light Infantry" hidden="false" collective="false" import="true" type="unit">
@@ -408,7 +478,7 @@
         <entryLink id="2db6-efb4-3706-479c" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="e673-c635-cdca-face" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="42.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="42"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="74d7-1afb-25a3-1333" name="KGL Light Infantry" hidden="false" collective="false" import="true" type="unit">
@@ -440,7 +510,7 @@
         <entryLink id="234a-2e2a-b6e0-2dbb" name="Infantry Upgrade to Veteran, Reliable, Elite 4+" hidden="false" collective="false" import="true" targetId="0bf1-d5cf-3d02-a648" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="45.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="45"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c345-71bb-a609-f532" name="British Foot Guards" hidden="false" collective="false" import="true" type="unit">
@@ -472,7 +542,7 @@
         <entryLink id="57f4-8f88-624d-3b11" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="e673-c635-cdca-face" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="62.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="62"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e578-c886-069c-2e35" name="Highland Infantry" hidden="false" collective="false" import="true" type="unit">
@@ -507,7 +577,7 @@
         <entryLink id="d59d-7fc5-0f85-8032" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="e673-c635-cdca-face" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="40.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="40"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="42dc-d4f8-342c-386a" name="Rifle Company (Tiny)" hidden="false" collective="false" import="true" type="unit">
@@ -536,7 +606,7 @@
         <categoryLink id="f56b-70aa-e69d-fe60" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="24.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="24"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4fe6-5bc8-ff9e-b7eb" name="Rifle Companies (Small)" hidden="false" collective="false" import="true" type="unit">
@@ -565,7 +635,7 @@
         <categoryLink id="d3b6-ea7f-d89a-e3a7" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="48.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="48"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba25-33f6-1f74-895d" name="Rifle Battalion" hidden="false" collective="false" import="true" type="unit">
@@ -594,7 +664,7 @@
         <categoryLink id="3847-1767-472f-52c0" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="56.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="56"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a173-af9a-96f8-878c" name="Hanovarian Field Line Battalion" hidden="false" collective="false" import="true" type="unit">
@@ -620,7 +690,7 @@
         <entryLink id="7ba4-875b-39a9-cc8a" name="Hanovarians Upgrade to Fire First" hidden="false" collective="false" import="true" targetId="6d40-dfe7-8484-2e08" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="36.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="36"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b9a5-4a97-c3a8-1e9f" name="Hanovarian Field Light Battalion" hidden="false" collective="false" import="true" type="unit">
@@ -649,7 +719,7 @@
         <entryLink id="ea73-8a14-4c7f-f776" name="Hanovarians Upgrade to Fire First" hidden="false" collective="false" import="true" targetId="6d40-dfe7-8484-2e08" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="39.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="39"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4c07-da63-843d-c79b" name="Hanovarian Landwehr" hidden="false" collective="false" import="true" type="unit">
@@ -678,7 +748,7 @@
         <entryLink id="17ff-5268-e8ca-84bc" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="30.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="30"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1925-c2bd-bc76-ab89" name="Hanovarian Jager Companies" hidden="false" collective="false" import="true" type="unit">
@@ -707,7 +777,7 @@
         <entryLink id="dc11-f39d-95fd-c15f" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="33.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="33"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="67e8-f421-a44e-071a" name="Dragoon Guards Cavalry" hidden="false" collective="false" import="true" type="unit">
@@ -738,7 +808,7 @@ Gallop at anything�</characteristic>
         <entryLink id="b658-2899-3179-35c5" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="47.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="47"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="44f0-b405-eda6-5164" name="Household Cavalry" hidden="false" collective="false" import="true" type="unit">
@@ -769,7 +839,7 @@ Gallop at anything�</characteristic>
         <entryLink id="144f-b37d-7d43-d6a4" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="58.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="58"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b9ab-9144-a3c1-1906" name="British Light Dragoon Hussar" hidden="false" collective="false" import="true" type="unit">
@@ -778,7 +848,7 @@ Gallop at anything�</characteristic>
           <modifiers>
             <modifier type="increment" field="c5e1-ae8e-97a6-f524" value="1">
               <conditions>
-                <condition field="selections" scope="b9ab-9144-a3c1-1906" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4858-dc75-3cbd-dc3a" type="atLeast"/>
+                <condition field="selections" scope="b9ab-9144-a3c1-1906" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4858-dc75-3cbd-dc3a" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -805,10 +875,10 @@ Gallop at anything�</characteristic>
       <entryLinks>
         <entryLink id="062f-8052-c414-bfcc" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
         <entryLink id="8bbd-1ed3-d52c-7851" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="e673-c635-cdca-face" type="selectionEntry"/>
-        <entryLink id="ae07-9874-5947-baf4" name="Cavalry Upgrade to Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
+        <entryLink id="ae07-9874-5947-baf4" name="Cavalry Upgrade to Reliable and +1 H2H" hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="46.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="46"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c631-1010-6181-69dd" name="KGL Light Dragoon Hussar" hidden="false" collective="false" import="true" type="unit">
@@ -817,7 +887,7 @@ Gallop at anything�</characteristic>
           <modifiers>
             <modifier type="increment" field="c5e1-ae8e-97a6-f524" value="1">
               <conditions>
-                <condition field="selections" scope="c631-1010-6181-69dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ce67-f88e-376d-4cf7" type="atLeast"/>
+                <condition field="selections" scope="c631-1010-6181-69dd" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ce67-f88e-376d-4cf7" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -844,10 +914,10 @@ Gallop at anything�</characteristic>
       <entryLinks>
         <entryLink id="e7df-78a5-e71d-ce3c" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
         <entryLink id="bf68-f433-8da7-63fd" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="e673-c635-cdca-face" type="selectionEntry"/>
-        <entryLink id="ce67-f88e-376d-4cf7" name="KGL Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="dd35-c035-c18c-26c3" type="selectionEntry"/>
+        <entryLink id="ce67-f88e-376d-4cf7" name="KGL Cavalry Upgrade to Veteran, Reliable and +1 H2H" hidden="false" collective="false" import="true" targetId="dd35-c035-c18c-26c3" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="46.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="46"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="14b2-da8c-ed7e-80f5" name="Hanovarian Light Cavalry" hidden="false" collective="false" import="true" type="unit">
@@ -873,7 +943,7 @@ Gallop at anything�</characteristic>
         <categoryLink id="5a65-a997-6ba4-b17a" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="41.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="41"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d555-7682-88c1-4bc2" name="Hanovarian Duke of Cumberland Hussars" hidden="false" collective="false" import="true" type="unit">
@@ -899,7 +969,7 @@ Gallop at anything�</characteristic>
         <categoryLink id="44bc-88de-b148-a715" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="27.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="27"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="71ca-1888-2fe1-fb3a" name="Royal Foot Artillery" hidden="false" collective="false" import="true" type="unit">
@@ -928,7 +998,7 @@ Gallop at anything�</characteristic>
         <entryLink id="640c-8b59-5373-2a93" name="Artillery Upgrade Veteran, Elite 5+" hidden="false" collective="false" import="true" targetId="66f4-a288-cfcc-0bdf" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="31.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="31"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e8c9-adfd-d951-3445" name="Royal Horse Artillery" hidden="false" collective="false" import="true" type="unit">
@@ -958,7 +1028,7 @@ Gallop at anything�</characteristic>
         <entryLink id="668b-1dc4-4d23-b66c" name="Artillery Upgrade Elite 5+" hidden="false" collective="false" import="true" targetId="ba02-168e-a994-0536" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="34.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="34"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1f3f-0413-0bca-c240" name="KGL Foot Artillery" hidden="false" collective="false" import="true" type="unit">
@@ -987,7 +1057,7 @@ Gallop at anything�</characteristic>
         <entryLink id="9d19-ee1a-9179-bbf9" name="Artillery Upgrade Veteran, Elite 5+" hidden="false" collective="false" import="true" targetId="66f4-a288-cfcc-0bdf" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="31.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="31"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dfb2-25f2-bcf2-8d17" name="KGL Horse Artillery" hidden="false" collective="false" import="true" type="unit">
@@ -1016,7 +1086,7 @@ Gallop at anything�</characteristic>
         <entryLink id="0270-4868-431f-0d0c" name="Artillery Upgrade Elite 5+" hidden="false" collective="false" import="true" targetId="ba02-168e-a994-0536" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="34.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="34"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6584-5127-9559-7c4c" name="Hanovarian Foot Artillery" hidden="false" collective="false" import="true" type="unit">
@@ -1038,7 +1108,7 @@ Gallop at anything�</characteristic>
         <categoryLink id="bfda-9785-46ff-9b6a" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="27.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="27"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c46b-c7d4-51d8-4757" name="British Dragoons" hidden="false" collective="false" import="true" type="unit">
@@ -1067,69 +1137,69 @@ Gallop at anything�</characteristic>
         <entryLink id="340e-e744-8ef8-fec6" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="47.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="47"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d40-dfe7-8484-2e08" name="Hanovarians Upgrade to Fire First" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8054-203c-d074-9de8" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8054-203c-d074-9de8" type="max"/>
       </constraints>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="3.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="3"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0bf1-d5cf-3d02-a648" name="Infantry Upgrade to Veteran, Reliable, Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99b7-2fe4-5269-5130" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99b7-2fe4-5269-5130" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="4c26-f124-ed54-3114" name="Elite 4+" hidden="false" targetId="9887-eb0e-61fb-4e09" type="profile"/>
         <infoLink id="7b8a-4d81-6dca-9c15" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="10.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e265-c052-f86f-bc40" name="Highlanders Upgrade to Ferocious Charge" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa00-9d4e-44e6-a6ab" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa00-9d4e-44e6-a6ab" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="a313-1570-9de0-1499" name="Ferocious Charge" hidden="false" targetId="838b-a730-15cc-7fa8" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="3.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="3"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dd35-c035-c18c-26c3" name="KGL Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dd35-c035-c18c-26c3" name="KGL Cavalry Upgrade to Veteran, Reliable and +1 H2H" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1678-3699-f5db-d610" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1678-3699-f5db-d610" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="a04d-96a1-1975-d26c" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
         <infoLink id="8c53-1526-1362-d02c" name="+1 Hand to Hand" hidden="false" targetId="d537-1dc9-c8e4-d268" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="66f4-a288-cfcc-0bdf" name="Artillery Upgrade Veteran, Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d143-d69f-755c-82f5" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d143-d69f-755c-82f5" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="c4e3-cde5-d853-c576" name="Elite 5+" hidden="false" targetId="611e-9f60-868f-712c" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="4.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e673-c635-cdca-face" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a68a-fc8d-7d77-91ec" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a68a-fc8d-7d77-91ec" type="max"/>
       </constraints>
       <costs>
-        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
+        <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
