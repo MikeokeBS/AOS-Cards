@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0ccf-a014-6165-2fa1" name="Black Powder v2" revision="15" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0ccf-a014-6165-2fa1" name="Black Powder v2" revision="18" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="13f0-c899-d38c-59a8" name="Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -230,12 +230,12 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ac91-9c7e-29c6-bb1e" name="Deep Formation" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f73d-2d77-90de-0ada" name="Deep Formation" hidden="false" targetId="30d2-5e86-1a10-daf2" type="profile"/>
+      </infoLinks>
       <categoryLinks>
-        <categoryLink id="9b51-46e9-4e93-e9a0" name="New CategoryLink" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="true"/>
+        <categoryLink id="485b-7524-c504-1826" name="New CategoryLink" hidden="false" targetId="a873-6e0d-1021-4c39" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="d574-d4b5-e951-1908" name="Deep Formation" hidden="false" collective="false" import="true" targetId="ac91-9c7e-29c6-bb1e" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
       </costs>
