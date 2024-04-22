@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8dd8-fc93-1443-a00b" name="French Army Corps 1815 Waterloo" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8dd8-fc93-1443-a00b" name="French Army Corps 1815 Waterloo" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="c2e8-4a02-abe1-ba4f" name="Ability"/>
   </profileTypes>
@@ -38,6 +38,34 @@
       <categoryLinks>
         <categoryLink id="1bb8-bb5b-15b2-262d" name="Divisional Leader" hidden="false" targetId="25f9-960e-16d9-0271" primary="false"/>
         <categoryLink id="c3a6-7d27-ad29-0a3b" name="Configuration" hidden="false" targetId="a873-6e0d-1021-4c39" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="62d9-a464-2eb1-f57e" name="French Infantry Brigade" hidden="false">
+      <categoryLinks>
+        <categoryLink id="1a35-d09f-fb27-e502" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+        <categoryLink id="f50f-e350-484f-6796" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+        <categoryLink id="a067-a7dd-fa1c-994c" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="2c09-41d4-bea9-02cd" name="French Cavalry Brigade" hidden="false">
+      <categoryLinks>
+        <categoryLink id="cf6f-d2fc-cacc-b5b3" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+        <categoryLink id="2048-8143-342a-8779" name="Light Cavalry" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="false"/>
+        <categoryLink id="7658-b5d3-f5c3-c5b5" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+        <categoryLink id="0aec-9539-e5ca-f623" name="Medium Cavalry" hidden="false" targetId="0967-e386-c7a6-693d" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="d744-0885-9433-aef5" name="French Heavy Cavalry Brigade" hidden="false">
+      <categoryLinks>
+        <categoryLink id="6210-c44f-67f4-571e" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+        <categoryLink id="ba40-9d43-c8a0-d485" name="Heavy Cavalry" hidden="false" targetId="a716-952d-33f2-008f" primary="false"/>
+        <categoryLink id="499b-fe26-9235-6590" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="057e-51ba-0cea-4edd" name="French Artilery Brigade" hidden="false">
+      <categoryLinks>
+        <categoryLink id="b4c6-c791-b18d-bb04" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+        <categoryLink id="80dc-a611-e00e-63ab" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
