@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dbbd-e702-d18a-a1cb" name="Prussian Army 1815 Waterloo" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dbbd-e702-d18a-a1cb" name="Prussian Army 1815 Waterloo" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="81f8-1ed0-6cdb-20b1" name="Prussian Brigade Commander" hidden="false">
       <categoryLinks>
@@ -31,108 +31,53 @@
     </forceEntry>
   </forceEntries>
   <entryLinks>
-    <entryLink id="aab1-56f5-e0f1-a119" name="Infantry Brigade Commander" hidden="false" collective="false" import="true" targetId="df8a-eac6-8e8c-012b" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="675e-58e4-d138-70b6" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
-        <entryLink id="8fc8-39c1-ceaa-7f20" name="Staff Rating 9" hidden="false" collective="false" import="true" targetId="3f48-59a0-1b6f-c897" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="d6c0-f49b-bf41-db9b" name="Cavalry Brigade Commander" hidden="false" collective="false" import="true" targetId="83a1-d90c-0d69-e4ca" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="7951-7b49-47f9-5d93" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="b7fc-4da2-9b81-a872" name="Prussian Dragoon" hidden="false" collective="false" import="true" targetId="128c-3451-91ad-0fb3" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="4e9e-909e-a037-0bab" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
-        <entryLink id="1485-843a-d317-426d" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="05da-da71-caf0-c949" name="Prussian Fusilier" hidden="false" collective="false" import="true" targetId="0d5c-2fb2-b9c3-4681" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="ba1d-7df5-99bf-927a" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="4417-8d94-79c9-720b" type="selectionEntry"/>
-        <entryLink id="5b5f-a436-d619-b5f7" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
-        <entryLink id="1f24-4bb8-83d1-e608" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
-        <entryLink id="8b48-6713-8769-3e6e" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="e910-62fb-75b9-04ce" name="Prussian Hussars" hidden="false" collective="false" import="true" targetId="3aaf-d8fc-00c2-9c5a" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="77fd-3ee9-6111-0335" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
-        <entryLink id="87af-6e63-949f-c4c6" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="ff06-a0cb-d637-0f09" name="Prussian Hussars (Small)" hidden="false" collective="false" import="true" targetId="4d9c-b60b-31c0-1a60" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="d455-2681-70e4-eed1" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="7b6a-5b32-837e-0539" name="Prussian Jager Battalion" hidden="false" collective="false" import="true" targetId="ab34-2bb3-d13a-7930" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="716f-e05a-2d39-a1e6" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="4417-8d94-79c9-720b" type="selectionEntry"/>
-        <entryLink id="8113-40ce-664e-9af8" name="Infantry downgrade to Unreliable" hidden="false" collective="false" import="true" targetId="56f8-f3e3-20e5-a709" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="3915-89ed-7951-c7b1" name="Prussian Jager Companies" hidden="false" collective="false" import="true" targetId="5595-c0e5-bf38-bc50" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="fb1b-98c3-e2d2-0971" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="4417-8d94-79c9-720b" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="1f15-b0ba-6d8e-3e4b" name="Prussian Jager Company" hidden="false" collective="false" import="true" targetId="d1b8-6a14-3ffb-da87" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="7947-1b6d-20de-377b" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="4417-8d94-79c9-720b" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="0b66-f8ad-ef5f-3cbf" name="Prussian Landwehr Infantry" hidden="false" collective="false" import="true" targetId="4da7-af45-e6a2-fe52" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="000c-4195-7e3a-46a4" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="4417-8d94-79c9-720b" type="selectionEntry"/>
-        <entryLink id="ba81-ef29-42a3-d0fc" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
-        <entryLink id="15cc-1e9a-a7b3-b61e" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="9bd9-2bc7-a23a-1141" name="Prussian Mounted Landwehr" hidden="false" collective="false" import="true" targetId="ae3a-0b40-a64a-a325" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="1724-e8fb-fa31-a982" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
+    <entryLink id="aab1-56f5-e0f1-a119" name="Infantry Brigade Commander" hidden="false" collective="false" import="true" targetId="df8a-eac6-8e8c-012b" type="selectionEntry"/>
+    <entryLink id="d6c0-f49b-bf41-db9b" name="Cavalry Brigade Commander" hidden="false" collective="false" import="true" targetId="83a1-d90c-0d69-e4ca" type="selectionEntry"/>
+    <entryLink id="b7fc-4da2-9b81-a872" name="Prussian Dragoon" hidden="false" collective="false" import="true" targetId="128c-3451-91ad-0fb3" type="selectionEntry"/>
+    <entryLink id="05da-da71-caf0-c949" name="Prussian Fusilier" hidden="false" collective="false" import="true" targetId="0d5c-2fb2-b9c3-4681" type="selectionEntry"/>
+    <entryLink id="e910-62fb-75b9-04ce" name="Prussian Hussars" hidden="false" collective="false" import="true" targetId="3aaf-d8fc-00c2-9c5a" type="selectionEntry"/>
+    <entryLink id="ff06-a0cb-d637-0f09" name="Prussian Hussars (Small)" hidden="false" collective="false" import="true" targetId="4d9c-b60b-31c0-1a60" type="selectionEntry"/>
+    <entryLink id="7b6a-5b32-837e-0539" name="Prussian Jager Battalion" hidden="false" collective="false" import="true" targetId="ab34-2bb3-d13a-7930" type="selectionEntry"/>
+    <entryLink id="3915-89ed-7951-c7b1" name="Prussian Jager Companies" hidden="false" collective="false" import="true" targetId="5595-c0e5-bf38-bc50" type="selectionEntry"/>
+    <entryLink id="1f15-b0ba-6d8e-3e4b" name="Prussian Jager Company" hidden="false" collective="false" import="true" targetId="d1b8-6a14-3ffb-da87" type="selectionEntry"/>
+    <entryLink id="0b66-f8ad-ef5f-3cbf" name="Prussian Landwehr Infantry" hidden="false" collective="false" import="true" targetId="4da7-af45-e6a2-fe52" type="selectionEntry"/>
+    <entryLink id="9bd9-2bc7-a23a-1141" name="Prussian Mounted Landwehr" hidden="false" collective="false" import="true" targetId="ae3a-0b40-a64a-a325" type="selectionEntry"/>
     <entryLink id="e503-df88-11cd-1df8" name="Prussian Mounted Landwehr (Small)" hidden="false" collective="false" import="true" targetId="2410-a71c-e278-8b27" type="selectionEntry"/>
-    <entryLink id="19eb-ca37-70d1-9491" name="Prussian Muskateer" hidden="false" collective="false" import="true" targetId="2c55-be5a-999e-07eb" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="0349-19ea-2425-bec0" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="4417-8d94-79c9-720b" type="selectionEntry"/>
-        <entryLink id="9365-11f9-f5ed-bef0" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
-        <entryLink id="566b-c731-7840-bec2" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
-        <entryLink id="bfc8-6e8a-0c06-fe6f" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
+    <entryLink id="19eb-ca37-70d1-9491" name="Prussian Muskateer" hidden="false" collective="false" import="true" targetId="2c55-be5a-999e-07eb" type="selectionEntry"/>
     <entryLink id="6337-04cd-6bb6-95a0" name="Prussian Schutzen" hidden="false" collective="false" import="true" targetId="5307-57bf-d00f-21c2" type="selectionEntry"/>
-    <entryLink id="5c7a-3ed4-ad43-9ac1" name="Prussian Uhlan" hidden="false" collective="false" import="true" targetId="77fe-ff71-96b3-acaf" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="ca10-b477-32ea-4450" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
-        <entryLink id="6f49-43f7-38e2-3e73" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="77b7-22ab-e6e2-6e12" name="Prussian Heavy Artillery" hidden="false" collective="false" import="true" targetId="9a27-359a-2cc0-ec22" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="575a-76ff-33f3-af0e" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="ba02-168e-a994-0536" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="9d34-2558-04ec-b286" name="Prussian Foot Artillery" hidden="false" collective="false" import="true" targetId="23f3-8459-2a8a-288a" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="b978-0324-82a2-1cff" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="ba02-168e-a994-0536" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="ddb3-1e3c-988b-8a59" name="Prussian Horse Artillery" hidden="false" collective="false" import="true" targetId="697f-34fa-e160-0ba9" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="8fdf-4e7f-b9d2-6f5f" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="ba02-168e-a994-0536" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
+    <entryLink id="5c7a-3ed4-ad43-9ac1" name="Prussian Uhlan" hidden="false" collective="false" import="true" targetId="77fe-ff71-96b3-acaf" type="selectionEntry"/>
+    <entryLink id="77b7-22ab-e6e2-6e12" name="Prussian Heavy Artillery" hidden="false" collective="false" import="true" targetId="9a27-359a-2cc0-ec22" type="selectionEntry"/>
+    <entryLink id="9d34-2558-04ec-b286" name="Prussian Foot Artillery" hidden="false" collective="false" import="true" targetId="23f3-8459-2a8a-288a" type="selectionEntry"/>
+    <entryLink id="ddb3-1e3c-988b-8a59" name="Prussian Horse Artillery" hidden="false" collective="false" import="true" targetId="697f-34fa-e160-0ba9" type="selectionEntry"/>
     <entryLink id="4161-b32e-57f5-4140" name="Prussian Sub-Commander" hidden="false" collective="false" import="true" targetId="c3ea-1656-fc41-7ae0" type="selectionEntry"/>
+    <entryLink id="8cf0-aef2-287c-d20b" name="Prussian Staff System" hidden="false" collective="false" import="true" targetId="140e-9979-bef0-49a1" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1107-d389-f6dc-68ba" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0de-65ce-113f-1756" type="min"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="99c8-4193-4a27-4a04" name="Angriffskolonne and Zug Column" hidden="false" collective="false" import="true" targetId="08f5-82b8-baec-d494" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ad5-7bc6-f854-d1fb" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e888-9f3f-126e-e2c5" type="min"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="0260-d86c-0dc7-1b51" name="No prisoners! no pity! i will shoot anyman i see with pity in him!" hidden="false" collective="false" import="true" targetId="8c4a-5e94-b242-2170" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b131-f09f-0c7d-d55d" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7716-d69c-b6d4-f2be" type="min"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="c185-173b-1288-7947" name="Divisional Commander" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="c69d-7b89-1870-fcee" name="New CategoryLink" hidden="false" targetId="25f9-960e-16d9-0271" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="63ad-3f6e-50a2-9064" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
+        <entryLink id="bb73-0249-1be3-e554" name="Staff Rating 9" hidden="false" collective="false" import="true" targetId="3f48-59a0-1b6f-c897" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
       </costs>
@@ -142,6 +87,10 @@
         <categoryLink id="e6e4-7ff1-c737-1616" name="New CategoryLink" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
         <categoryLink id="e88f-8063-efd2-3d3c" name="New CategoryLink" hidden="false" targetId="25f9-960e-16d9-0271" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="6415-677f-f5b9-537f" name="Staff Rating 9" hidden="false" collective="false" import="true" targetId="3f48-59a0-1b6f-c897" type="selectionEntry"/>
+        <entryLink id="8377-5bca-b35d-cfa0" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
       </costs>
@@ -262,51 +211,176 @@
       <categoryLinks>
         <categoryLink id="8b4c-0ccd-7ca3-9722" name="New CategoryLink" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="b1c1-1999-0a22-de38" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ab34-2bb3-d13a-7930" name="Prussian Jager Battalion" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ab76-931c-9d64-d69b" name="Prussian Jager Battalion" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Rifled Musket</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">6</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">3</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Elite 5+, Reliable, Sharpshooters, Skirmish</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ca13-3245-a690-beac" name="Sharp Shooters" hidden="false" targetId="f1dc-39c2-8cec-df2d" type="profile"/>
+        <infoLink id="8817-e265-0b5f-f4db" name="Elite 5+" hidden="false" targetId="611e-9f60-868f-712c" type="profile"/>
+        <infoLink id="c29b-6715-0878-ad47" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="11c3-bcbd-c605-b3d6" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="e1cb-7b1f-31cb-0891" name="Infantry downgrade to Unreliable" hidden="false" collective="false" import="true" targetId="56f8-f3e3-20e5-a709" type="selectionEntry"/>
+        <entryLink id="9e02-f04a-72ef-3c22" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="4417-8d94-79c9-720b" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0d5c-2fb2-b9c3-4681" name="Prussian Fusilier" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8747-5e25-3a40-4ae4" name="Prussian Fusilier" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Musket</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">6</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">3</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Sharpshooters, Skirmish</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6a26-2916-078d-d779" name="Sharp Shooters" hidden="false" targetId="f1dc-39c2-8cec-df2d" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="2cdb-9555-ac4a-473a" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="024d-5fe9-e64c-e7ae" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
+        <entryLink id="6402-f7a1-c66e-5b14" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="4417-8d94-79c9-720b" type="selectionEntry"/>
+        <entryLink id="f984-859c-0763-a65c" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+        <entryLink id="84ea-5d23-4acb-4a05" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="39.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2c55-be5a-999e-07eb" name="Prussian Muskateer" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b9eb-f212-0fac-f52d" name="Prussian Muskateer" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Musket</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">6</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">3</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="8f6d-417e-9bf2-2ab9" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="2038-fb06-29e8-68b2" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+        <entryLink id="9ea1-2429-8365-16ea" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
+        <entryLink id="80d7-9343-2729-ab49" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="4417-8d94-79c9-720b" type="selectionEntry"/>
+        <entryLink id="9fda-61e3-635c-2961" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="36.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5595-c0e5-bf38-bc50" name="Prussian Jager Companies" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9fca-f23e-c7e5-9e29" name="Prussian Jager Companies" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Rifled Musket</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">4</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">2</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">2</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Elite 5+, Reliable, Sharpshooters, Skirmish</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9a6f-f137-acef-403f" name="Sharp Shooters" hidden="false" targetId="f1dc-39c2-8cec-df2d" type="profile"/>
+        <infoLink id="213e-8216-0064-7e73" name="Elite 5+" hidden="false" targetId="611e-9f60-868f-712c" type="profile"/>
+        <infoLink id="9faa-f705-4892-b4f2" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="bbd7-c0aa-17b7-faf6" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="4521-cfb3-3027-bae2" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="4417-8d94-79c9-720b" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="42.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d1b8-6a14-3ffb-da87" name="Prussian Jager Company" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="da2f-0f7d-6d4c-fbbe" name="Prussian Jager Company" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Rifled Musket</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">2</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">1</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">1</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Elite 5+, Reliable, Sharpshooters, Skirmish</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4528-b990-c2f4-f6f9" name="Sharp Shooters" hidden="false" targetId="f1dc-39c2-8cec-df2d" type="profile"/>
+        <infoLink id="2fa8-aeac-fe70-5e2f" name="Elite 5+" hidden="false" targetId="611e-9f60-868f-712c" type="profile"/>
+        <infoLink id="3392-6102-25da-4060" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="7d9d-8db8-decd-c3f2" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="32e9-8603-a7c2-503e" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="4417-8d94-79c9-720b" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="21.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5307-57bf-d00f-21c2" name="Prussian Schutzen" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="bad7-fc97-f5bc-904e" name="Prussian Schutzen" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Musket</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">4</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">2</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">2</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Rifle Mixed Formation, Skirmish, Sharpshooters,</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="898b-32ba-fdca-3121" name="Sharp Shooters" hidden="false" targetId="f1dc-39c2-8cec-df2d" type="profile"/>
+        <infoLink id="e23c-5fa1-5e29-88df" name="Rifle Mixed formation" hidden="false" targetId="71de-07a1-6974-0a1f" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="a077-464b-9b7a-55e2" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
       </categoryLinks>
@@ -315,88 +389,306 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4da7-af45-e6a2-fe52" name="Prussian Landwehr Infantry" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ac4d-e62c-e62f-e119" name="Prussian Landwehr Infantry" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Musket</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">6</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">3</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Unreliable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c1cb-77b6-e167-c622" name="Unreliable" hidden="false" targetId="a7a4-0a50-ac09-4117" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="5bcb-3a90-e4ac-7276" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="2752-a818-10b3-9f2c" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
+        <entryLink id="fbec-5c26-67d5-b558" name="Infantry Upgrade to Valiant" hidden="false" collective="false" import="true" targetId="4417-8d94-79c9-720b" type="selectionEntry"/>
+        <entryLink id="7543-063b-d274-4038" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="33.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="128c-3451-91ad-0fb3" name="Prussian Dragoon" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4d2d-ff85-c596-757e" name="Prussian Dragoon" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <modifiers>
+            <modifier type="increment" field="c5e1-ae8e-97a6-f524" value="1">
+              <conditions>
+                <condition field="selections" scope="128c-3451-91ad-0fb3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4858-dc75-3cbd-dc3a" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Sabre</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">8</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">-</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Heavy Cavalry D1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d80f-e678-d5f5-3e04" name="Heavy Cavalry D1" hidden="false" targetId="d5db-3498-4b90-4ca5" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="7bd3-2291-f297-e62e" name="New CategoryLink" hidden="false" targetId="a716-952d-33f2-008f" primary="true"/>
         <categoryLink id="c89d-0eaf-0860-3448" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="43ea-23dc-94a6-94ce" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
+        <entryLink id="3d1d-a635-423e-6d46" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="44.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="77fe-ff71-96b3-acaf" name="Prussian Uhlan" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4855-e450-5a66-dbd9" name="Prussian Uhlan" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <modifiers>
+            <modifier type="increment" field="c5e1-ae8e-97a6-f524" value="1">
+              <conditions>
+                <condition field="selections" scope="77fe-ff71-96b3-acaf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4858-dc75-3cbd-dc3a" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Lance</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">7</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">-</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Lancer, Marauder</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2381-c48c-623d-dc5a" name="Marauders" hidden="false" targetId="529d-b833-0cf3-9ef8" type="profile"/>
+        <infoLink id="eb8f-8c22-d2e6-4fef" name="Lancers" hidden="false" targetId="7df3-6c02-69de-bf6b" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="a998-113a-ffb4-fe3b" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="true"/>
         <categoryLink id="543e-e02a-ffa3-724b" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="4f8a-2fa3-ef1f-01b3" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
+        <entryLink id="32d2-633d-c991-1a48" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="48.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3aaf-d8fc-00c2-9c5a" name="Prussian Hussars" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="26cc-5364-d3e2-e0fd" name="Prussian Hussars" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <modifiers>
+            <modifier type="increment" field="c5e1-ae8e-97a6-f524" value="1">
+              <conditions>
+                <condition field="selections" scope="3aaf-d8fc-00c2-9c5a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4858-dc75-3cbd-dc3a" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Lance</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">6</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">-</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Marauder</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7882-e44b-b6e5-6d28" name="Marauders" hidden="false" targetId="529d-b833-0cf3-9ef8" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="614f-daa3-91e4-2011" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="true"/>
         <categoryLink id="92ec-0924-84e9-10ef" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="962e-d750-4586-bbf2" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
+        <entryLink id="fb27-835e-0f13-9ea2" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="41.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ae3a-0b40-a64a-a325" name="Prussian Mounted Landwehr" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5f37-8a6a-7a1e-1890" name="Prussian Mounted Landwehr" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Lance</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">5</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">-</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">5</characteristic>
+            <characteristic name="Stamina" typeId="Special">2</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Lancer, Marauder, Unreliable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a7ea-b7de-c64b-b27f" name="Marauders" hidden="false" targetId="529d-b833-0cf3-9ef8" type="profile"/>
+        <infoLink id="6d53-4eed-5d8d-e2b0" name="Lancers" hidden="false" targetId="7df3-6c02-69de-bf6b" type="profile"/>
+        <infoLink id="40a3-4c01-d5a1-7dca" name="Unreliable" hidden="false" targetId="a7a4-0a50-ac09-4117" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="438d-d63c-4fa6-cb36" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
         <categoryLink id="e2b0-09cb-541a-bcdd" name="New CategoryLink" hidden="false" targetId="b041-21d2-f523-442f" primary="true"/>
         <categoryLink id="0f15-f771-6122-ef4e" name="Light Cavalry" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="2740-81a9-ff17-87ec" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="43e6-fa91-1698-59c0" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="32.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="23f3-8459-2a8a-288a" name="Prussian Foot Artillery" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ddda-86e5-a888-d388" name="Prussian Foot Artillery" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Artillery</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Artillery</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">1</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">3-2-1</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">2</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="bd10-2660-cf20-035d" name="New CategoryLink" hidden="false" targetId="8208-4235-27c7-34cd" primary="true"/>
         <categoryLink id="f2f1-61a0-0a0a-1d34" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="5597-0dda-a862-397f" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="ba02-168e-a994-0536" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="27.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9a27-359a-2cc0-ec22" name="Prussian Heavy Artillery" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2489-8ecc-c960-839b" name="Prussian Heavy Artillery" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Artillery</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Siege Artillery</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">1</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">3-2-1</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">2</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="3432-a362-884d-0fcd" name="New CategoryLink" hidden="false" targetId="8208-4235-27c7-34cd" primary="true"/>
         <categoryLink id="ffa3-9ddb-7847-2a6d" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="d40e-b7ed-a139-975e" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="ba02-168e-a994-0536" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="31.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="697f-34fa-e160-0ba9" name="Prussian Horse Artillery" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ae4a-1db6-66dd-1b19" name="Prussian Horse Artillery" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Artillery</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Artillery</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">1</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">3-2-1</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">1</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Marauder</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="16e9-04ed-adb2-8a5e" name="Marauders" hidden="false" targetId="529d-b833-0cf3-9ef8" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="b9b0-567c-a10f-69d8" name="New CategoryLink" hidden="false" targetId="c8ef-ba28-3668-dfee" primary="true"/>
         <categoryLink id="81a8-96e8-5f8f-b576" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="dc73-2c08-df72-7670" name="Artillery Upgrade Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="ba02-168e-a994-0536" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="26.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4d9c-b60b-31c0-1a60" name="Prussian Hussars (Small)" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6c52-794b-249c-7780" name="Prussian Hussars (Small)" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <modifiers>
+            <modifier type="increment" field="c5e1-ae8e-97a6-f524" value="1">
+              <conditions>
+                <condition field="selections" scope="4d9c-b60b-31c0-1a60" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4858-dc75-3cbd-dc3a" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Lance</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">4</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">-</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">2</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Marauder</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="62d5-318a-8ad4-477f" name="Marauders" hidden="false" targetId="529d-b833-0cf3-9ef8" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="b836-e7e0-019c-5187" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="false"/>
         <categoryLink id="0464-d72d-51ef-ff91" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
         <categoryLink id="2b54-2f31-717c-78b9" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="1de7-f4c6-bff7-532a" name="Cavalry Upgrade to Veteran, Reliable and +1 H2H " hidden="false" collective="false" import="true" targetId="4858-dc75-3cbd-dc3a" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="33.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2410-a71c-e278-8b27" name="Prussian Mounted Landwehr (Small)" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f370-f455-9ce3-6924" name="Prussian Mounted Landwehr (Small)" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Lance</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">3</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">-</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">1</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="64fa-fcee-f6f8-bf03" name="Lancers" hidden="false" targetId="7df3-6c02-69de-bf6b" type="profile"/>
+        <infoLink id="88d2-a7a3-cdbf-565f" name="Unreliable" hidden="false" targetId="a7a4-0a50-ac09-4117" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="78a4-c965-b20b-867a" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
         <categoryLink id="d090-5462-d013-ec51" name="New CategoryLink" hidden="false" targetId="b041-21d2-f523-442f" primary="false"/>

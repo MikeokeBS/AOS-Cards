@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d44b-459f-4303-5b74" name="Brunswick (Anglo Netherlands) 1815 Waterloo" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d44b-459f-4303-5b74" name="Brunswick (Anglo Netherlands) 1815 Waterloo" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="0ccf-a014-6165-2fa1" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="b634-a3a0-6ad4-39a6" name="Brunswick Division" hidden="false">
       <forceEntries>
@@ -28,79 +28,103 @@
         <categoryLink id="cdc0-e80c-a403-07cf" name="Configuration" hidden="false" targetId="a873-6e0d-1021-4c39" primary="false"/>
       </categoryLinks>
     </forceEntry>
+    <forceEntry id="2115-9f79-a220-39be" name="Brunswick Advanced Guard Independant Command" hidden="false">
+      <categoryLinks>
+        <categoryLink id="6a21-bb72-33a0-5e10" name="Brunswick Vanguard Infantry" hidden="false" targetId="24d7-1488-e209-2c99" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="a0fe-58be-78d5-cf62" name="Brunswick Cavalry Brigade" hidden="false">
+      <categoryLinks>
+        <categoryLink id="a611-b61d-93b6-0ea3" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+        <categoryLink id="f8e3-7fae-9033-a603" name="Light Cavalry" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="false"/>
+        <categoryLink id="db99-5d28-20a3-c187" name="Horse Artillery" hidden="false" targetId="c8ef-ba28-3668-dfee" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="b960-fbb5-4263-8dd0" name="Brunswick Infantry Brigade" hidden="false">
+      <categoryLinks>
+        <categoryLink id="123c-15da-714f-9249" name="Brigade Leader" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="false"/>
+        <categoryLink id="a51e-5c2b-2cec-4751" name="Infantry" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
+        <categoryLink id="49da-0559-7759-00b4" name="Foot Artillery" hidden="false" targetId="8208-4235-27c7-34cd" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
   <entryLinks>
-    <entryLink id="aab1-56f5-e0f1-a119" name="Brigade Commander" hidden="false" collective="false" import="true" targetId="df8a-eac6-8e8c-012b" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="675e-58e4-d138-70b6" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="c0be-4b30-4809-cec9" name="Divisional Commander" hidden="false" collective="false" import="true" targetId="c185-173b-1288-7947" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="c23f-f56b-8c8a-71bb" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="82d9-20c3-5478-1146" name="Brunswick Hussar" hidden="false" collective="false" import="true" targetId="9647-5759-8e39-2e90" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="b75d-ac18-be26-61ad" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98f1-e881-4bbc-50ed" type="selectionEntry"/>
-        <entryLink id="fc8b-6bd8-ff66-d9d2" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="3d38-e2ac-1018-e801" name="Brunswick Leib Light" hidden="false" collective="false" import="true" targetId="a599-0748-6b01-af01" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="77f5-b896-581b-6330" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
-        <entryLink id="1d87-ad5d-6d76-750b" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98f1-e881-4bbc-50ed" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="5430-e06f-48ca-524c" name="Brunswick Light Infantry" hidden="false" collective="false" import="true" targetId="2b39-8587-7e11-77b7" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="8080-2851-91ac-9850" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
-        <entryLink id="f31b-32cc-0d4a-7324" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98f1-e881-4bbc-50ed" type="selectionEntry"/>
-        <entryLink id="0882-147c-1336-c97e" name="Infantry remove Unreliable" hidden="false" collective="false" import="true" targetId="314a-54ab-48b9-bfc9" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="502b-6b29-3de6-8b5c" name="Brunswick Line Battalion" hidden="false" collective="false" import="true" targetId="5405-8571-7172-7255" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="1901-7d00-2e55-2ce1" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
-        <entryLink id="a165-ddff-e326-4fb9" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98f1-e881-4bbc-50ed" type="selectionEntry"/>
-        <entryLink id="66be-7677-3784-362d" name="Infantry remove Unreliable" hidden="false" collective="false" import="true" targetId="314a-54ab-48b9-bfc9" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="b035-d16a-b4de-1739" name="Brunswick Uhlan" hidden="false" collective="false" import="true" targetId="acc9-b956-75cd-5cab" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="f7d0-bfcb-f238-540d" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98f1-e881-4bbc-50ed" type="selectionEntry"/>
-        <entryLink id="7fe4-10a9-8f16-afe1" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="400d-9366-2481-a9df" name="Brunswick Uhlan Squadron (Small)" hidden="false" collective="false" import="true" targetId="7c3d-be97-1fcf-21c9" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="e4a3-307f-0e4a-cbd3" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98f1-e881-4bbc-50ed" type="selectionEntry"/>
-        <entryLink id="5455-dccd-166f-3516" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="8836-c2b2-f8e7-2bca" name="Brunswick Vanguard Battalion" hidden="false" collective="false" import="true" targetId="e25e-0185-f2f1-83d9" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="ab87-19c7-146b-7066" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="7a57-336d-7ff5-31ba" name="Brunswick Vanguard Jager Companies" hidden="false" collective="false" import="true" targetId="9633-e82a-76dd-0a4b" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="d3fd-3ede-1827-0598" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="41e1-aa22-9de6-c4fa" name="Brunswick Vanguard Light Companies" hidden="false" collective="false" import="true" targetId="740a-b160-9125-204a" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="eb9d-9d0b-1d13-153e" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
-      </entryLinks>
-    </entryLink>
+    <entryLink id="aab1-56f5-e0f1-a119" name="Brigade Commander" hidden="false" collective="false" import="true" targetId="df8a-eac6-8e8c-012b" type="selectionEntry"/>
+    <entryLink id="c0be-4b30-4809-cec9" name="Divisional Commander" hidden="false" collective="false" import="true" targetId="c185-173b-1288-7947" type="selectionEntry"/>
+    <entryLink id="82d9-20c3-5478-1146" name="Brunswick Hussar" hidden="false" collective="false" import="true" targetId="9647-5759-8e39-2e90" type="selectionEntry"/>
+    <entryLink id="3d38-e2ac-1018-e801" name="Brunswick Leib Light" hidden="false" collective="false" import="true" targetId="a599-0748-6b01-af01" type="selectionEntry"/>
+    <entryLink id="5430-e06f-48ca-524c" name="Brunswick Light Infantry" hidden="false" collective="false" import="true" targetId="2b39-8587-7e11-77b7" type="selectionEntry"/>
+    <entryLink id="502b-6b29-3de6-8b5c" name="Brunswick Line Battalion" hidden="false" collective="false" import="true" targetId="5405-8571-7172-7255" type="selectionEntry"/>
+    <entryLink id="b035-d16a-b4de-1739" name="Brunswick Uhlan" hidden="false" collective="false" import="true" targetId="acc9-b956-75cd-5cab" type="selectionEntry"/>
+    <entryLink id="400d-9366-2481-a9df" name="Brunswick Uhlan Squadron (Small)" hidden="false" collective="false" import="true" targetId="7c3d-be97-1fcf-21c9" type="selectionEntry"/>
+    <entryLink id="8836-c2b2-f8e7-2bca" name="Brunswick Vanguard Battalion" hidden="false" collective="false" import="true" targetId="e25e-0185-f2f1-83d9" type="selectionEntry"/>
+    <entryLink id="7a57-336d-7ff5-31ba" name="Brunswick Vanguard Jager Companies" hidden="false" collective="false" import="true" targetId="9633-e82a-76dd-0a4b" type="selectionEntry"/>
+    <entryLink id="41e1-aa22-9de6-c4fa" name="Brunswick Vanguard Light Companies" hidden="false" collective="false" import="true" targetId="740a-b160-9125-204a" type="selectionEntry"/>
     <entryLink id="f2b0-3a43-5bf0-0665" name="Brusnwick Foot Battery" hidden="false" collective="false" import="true" targetId="4bcc-8334-5195-f160" type="selectionEntry"/>
     <entryLink id="cb94-f654-a060-6c3c" name="Brusnwick Horse Battery" hidden="false" collective="false" import="true" targetId="b2b0-a322-7b27-ee69" type="selectionEntry"/>
+    <entryLink id="8af1-7a3b-53ba-bbc5" name="Detached Light Companies" hidden="false" collective="false" import="true" targetId="b499-c03d-5b25-41bc" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6746-400e-ca8a-852f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc75-3caa-1740-1df7" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="8a65-cdd5-9653-1ced" name="Four-Deep line" hidden="false" collective="false" import="true" targetId="c809-5fb8-8203-523d" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f823-7b4e-6423-3cae" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c83-e731-72e7-d972" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="b1e2-9255-2ca3-b94f" name="Cannot Form Attack Column" hidden="false" collective="false" import="true" targetId="c026-908d-3a0f-ee91" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df8f-c3b2-5c5d-53b2" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bd8-b30f-8f08-5d24" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="7c48-2848-0005-b634" name="Rifle Mixed formation" hidden="false" collective="false" import="true" targetId="aee8-0313-a2a1-bb1c" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2db1-32fc-8c9d-d5b4" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5678-38bb-4f03-e1f6" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="f0c0-df9a-ae57-b356" name="Lie Down" hidden="false" collective="false" import="true" targetId="041f-c8c1-f04f-a056" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e1d-cfb6-f05c-abf5" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56a2-e4a6-5ecc-dc2a" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="427a-f379-c99f-0e60" name="A Column of Companies" hidden="false" collective="false" import="true" targetId="f764-9df1-0409-79ab" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd62-119f-a6d5-c4d7" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e68e-9e0f-6995-2af3" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="194f-64d6-d080-9b14" name="Ferocious Charge" hidden="false" collective="false" import="true" targetId="89b0-835d-a7bb-e9e3" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c78a-3e65-6c53-126d" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72a1-65fe-8162-47a5" type="min"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="537b-531a-a370-c2ca" name="Gallop at Anything" hidden="false" collective="false" import="true" targetId="7ccc-efc8-1e85-41d7" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cb4-fde4-9be8-0e43" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14b2-29a3-14ce-1afa" type="min"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="5994-65e3-cfd0-6d16" name="Deep Formation" hidden="false" collective="false" import="true" targetId="ac91-9c7e-29c6-bb1e" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95e8-be72-f2ee-0a85" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d49b-8252-b573-1f6b" type="max"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="c185-173b-1288-7947" name="Divisional Commander" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="c69d-7b89-1870-fcee" name="New CategoryLink" hidden="false" targetId="25f9-960e-16d9-0271" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="1031-f273-3061-5f19" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
       </costs>
@@ -109,6 +133,9 @@
       <categoryLinks>
         <categoryLink id="e6e4-7ff1-c737-1616" name="New CategoryLink" hidden="false" targetId="4227-1fd4-a1af-3a0d" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="9aee-ee1f-55f1-b793" name="Staff rating 8" hidden="false" collective="false" import="true" targetId="aed3-ad98-e57e-9ec2" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="0.0"/>
       </costs>
@@ -141,6 +168,10 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1e8-4c55-2652-1184" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="3b51-d2d3-7850-67be" name="Elite 5+" hidden="false" targetId="611e-9f60-868f-712c" type="profile"/>
+        <infoLink id="32d8-dc76-e894-23fb" name="Reliable" hidden="false" targetId="b3c7-8300-d1c9-7c08" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="8.0"/>
       </costs>
@@ -218,84 +249,285 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a599-0748-6b01-af01" name="Brunswick Leib Light" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3083-0f2d-5fed-4071" name="Brunswick Leib Light" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Musket</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">6</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">3</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Marauder, Skirmish, Sharpshooter</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1c26-60d9-4893-33bb" name="Elite 5+" hidden="false" targetId="611e-9f60-868f-712c" type="profile"/>
+        <infoLink id="66a7-9913-1191-128f" name="Sharp Shooters" hidden="false" targetId="f1dc-39c2-8cec-df2d" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="c476-1517-0358-fb0b" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="530f-346a-3126-0028" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="4aae-fe67-a190-8c76" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98f1-e881-4bbc-50ed" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="43.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5405-8571-7172-7255" name="Brunswick Line Battalion" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d58c-2804-1773-b804" name="Brunswick Line Battalion" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Musket</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">6</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">3</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Unreliable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="20e0-85e3-602f-f435" name="Unreliable" hidden="false" targetId="a7a4-0a50-ac09-4117" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="a2c1-2d1a-8671-bc5d" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="c2af-aed6-677e-b810" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="fde0-c449-6e5c-3890" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98f1-e881-4bbc-50ed" type="selectionEntry"/>
+        <entryLink id="7459-65a4-87e7-ea34" name="Infantry remove Unreliable" hidden="false" collective="false" import="true" targetId="314a-54ab-48b9-bfc9" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="33.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b39-8587-7e11-77b7" name="Brunswick Light Infantry" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="25e3-28bd-5a04-33c6" name="Brunswick Light Infantry" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Musket</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">6</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">3</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Skirmish, Sharpshooter, Unreliable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7987-9a29-4aac-26b0" name="Sharp Shooters" hidden="false" targetId="f1dc-39c2-8cec-df2d" type="profile"/>
+        <infoLink id="dfe5-aca0-c82f-dd24" name="Unreliable" hidden="false" targetId="a7a4-0a50-ac09-4117" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="5457-871b-496d-bf2f" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="249e-0f55-da8c-bd48" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="0d8b-32e2-c847-5128" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98f1-e881-4bbc-50ed" type="selectionEntry"/>
+        <entryLink id="38b5-af3e-9cbf-f8eb" name="Infantry remove Unreliable" hidden="false" collective="false" import="true" targetId="314a-54ab-48b9-bfc9" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="36.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9633-e82a-76dd-0a4b" name="Brunswick Vanguard Jager Companies" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="bd0f-eaae-b8c7-5a3d" name="Brunswick Vanguard Jager Companies" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Rifled Musket</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">4</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">2</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">2</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Marauder, Skirmish, Sharpshooter</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c5f4-a700-8344-8687" name="Sharp Shooters" hidden="false" targetId="f1dc-39c2-8cec-df2d" type="profile"/>
+        <infoLink id="ac1d-fba8-d0ae-2380" name="Marauders" hidden="false" targetId="529d-b833-0cf3-9ef8" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="5193-fbad-5e24-cc57" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
         <categoryLink id="90d1-3e97-b4dc-fa56" name="New CategoryLink" hidden="false" targetId="24d7-1488-e209-2c99" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="9fd4-68e9-9029-ad0a" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="38.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="740a-b160-9125-204a" name="Brunswick Vanguard Light Companies" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ec14-7285-0f13-6139" name="Brunswick Vanguard Light Companies" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Musket</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">4</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">2</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">2</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Marauder, Skirmish, Sharpshooter</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f9f2-086c-adbd-7bde" name="Sharp Shooters" hidden="false" targetId="f1dc-39c2-8cec-df2d" type="profile"/>
+        <infoLink id="5f39-f9cb-8771-216c" name="Marauders" hidden="false" targetId="529d-b833-0cf3-9ef8" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="32e8-b170-9972-730a" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
         <categoryLink id="01a0-820f-1db4-b4c1" name="New CategoryLink" hidden="false" targetId="24d7-1488-e209-2c99" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="b5d1-2969-7301-f777" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="36.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e25e-0185-f2f1-83d9" name="Brunswick Vanguard Battalion" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="38fc-1676-f59a-30dc" name="Brunswick Vanguard Battalion" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Musket</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">6</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">3</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Marauder, Rifle Mixed Formation, Skirmish, Sharpshooter</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6b36-c684-2dda-ead0" name="Sharp Shooters" hidden="false" targetId="f1dc-39c2-8cec-df2d" type="profile"/>
+        <infoLink id="69b5-e950-d287-45a5" name="Marauders" hidden="false" targetId="529d-b833-0cf3-9ef8" type="profile"/>
+        <infoLink id="94ba-47bd-44e6-27cc" name="Rifle Mixed formation" hidden="false" targetId="71de-07a1-6974-0a1f" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="7ead-2cd9-ef37-bba5" name="New CategoryLink" hidden="false" targetId="003f-5564-7e12-51f8" primary="false"/>
         <categoryLink id="637f-88a8-8f53-f191" name="New CategoryLink" hidden="false" targetId="24d7-1488-e209-2c99" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="1215-0cb7-ad09-f96e" name="Infantry Upgrade to Veteran, Reliable, Elite 5+" hidden="false" collective="false" import="true" targetId="bfb5-9d7c-4ff5-5530" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="46.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9647-5759-8e39-2e90" name="Brunswick Hussar" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="91ad-80dd-023e-6724" name="Brunswick Hussar" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Lance</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">6</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">-</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Marauder</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d79f-ad35-c8ec-8d3f" name="Marauders" hidden="false" targetId="529d-b833-0cf3-9ef8" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="28c3-5593-4623-fd8a" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="true"/>
         <categoryLink id="e197-fbd7-5d5c-afdd" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="d1e7-b55e-0229-a405" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="73cc-223a-f1d2-f535" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98f1-e881-4bbc-50ed" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="41.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="acc9-b956-75cd-5cab" name="Brunswick Uhlan" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="33ff-f6fd-39d8-c0b3" name="Brunswick Uhlan" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Lance</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">7</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">-</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">3</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Lance, Marauder</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d048-2f0c-44d5-278b" name="Marauders" hidden="false" targetId="529d-b833-0cf3-9ef8" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="3582-d380-d122-0f2c" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="true"/>
         <categoryLink id="83a8-71a3-be16-cba5" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="7ca0-1338-29c8-81d0" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="253c-0f5e-255b-f8a8" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98f1-e881-4bbc-50ed" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="48.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7c3d-be97-1fcf-21c9" name="Brunswick Uhlan Squadron (Small)" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f9c4-84cd-6978-247c" name="Brunswick Uhlan Squadron (Small)" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Lance</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">5</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">-</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">2</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Lance, Marauder</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="635d-edec-9b83-d45c" name="Marauders" hidden="false" targetId="529d-b833-0cf3-9ef8" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="790b-4482-65b4-2d57" name="New CategoryLink" hidden="false" targetId="01e1-d0b8-2bb3-0b96" primary="true"/>
         <categoryLink id="c97f-f027-4e53-a1d4" name="Cavalry" hidden="false" targetId="22e0-7d86-0dbd-6ec0" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="9e2a-b357-c683-7e2f" name="Downgrade any unit to Small" hidden="false" collective="false" import="true" targetId="7940-7fb2-990e-949d" type="selectionEntry"/>
+        <entryLink id="8de3-b352-df49-a7b4" name="Upgrade any unit to Large" hidden="false" collective="false" import="true" targetId="98f1-e881-4bbc-50ed" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="13f0-c899-d38c-59a8" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b2b0-a322-7b27-ee69" name="Brusnwick Horse Battery" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7ad8-ec2d-1e1d-0114" name="Brusnwick Horse Battery" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Artillery</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Artillery</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">1</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">3-2-1</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">1</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">Marauder</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bc3f-0fda-18ba-8c70" name="Marauders" hidden="false" targetId="529d-b833-0cf3-9ef8" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="f0fb-dc22-1986-c38b" name="New CategoryLink" hidden="false" targetId="c8ef-ba28-3668-dfee" primary="true"/>
         <categoryLink id="392f-cb33-270d-978c" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
@@ -305,6 +537,19 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4bcc-8334-5195-f160" name="Brusnwick Foot Battery" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6e24-1f34-9eb4-3d8d" name="Brusnwick Foot Battery" hidden="false" typeId="0acc-9e5a-3047-2f36" typeName="StatLine">
+          <characteristics>
+            <characteristic name="Type" typeId="72a0-b535-b6dd-d050">Regular Artillery</characteristic>
+            <characteristic name="Armament" typeId="e101-b458-6f94-f65a">Smoothbore Artillery</characteristic>
+            <characteristic name="Hand to Hand" typeId="c5e1-ae8e-97a6-f524">1</characteristic>
+            <characteristic name="Shooting" typeId="01b6-a321-33a2-7541">3-2-1</characteristic>
+            <characteristic name="Morale" typeId="b9fc-5162-216f-b25d">4</characteristic>
+            <characteristic name="Stamina" typeId="Special">1</characteristic>
+            <characteristic name="Special" typeId="471b-7cda-e4ba-a7ad">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="c8e1-d261-5c86-b47e" name="New CategoryLink" hidden="false" targetId="8208-4235-27c7-34cd" primary="true"/>
         <categoryLink id="a8b2-677e-cb73-cdad" name="Artilery" hidden="false" targetId="61c1-c7f2-1762-2913" primary="false"/>
